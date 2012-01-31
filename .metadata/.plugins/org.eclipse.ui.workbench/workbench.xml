@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1141" x="68" y="25">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
-<coolbarLayout locked="0">
+<coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="104" y="30"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -36,6 +36,7 @@
 </folder>
 </info>
 </editorArea>
+<<<<<<< HEAD
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FifoQueue.java" partName="FifoQueue.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab2/src/queue/FifoQueue.java" title="FifoQueue.java" tooltip="lab2/src/queue/FifoQueue.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab2/src/queue/FifoQueue.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1513" selectionTopPixel="745"/>
@@ -43,6 +44,23 @@
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestFifoQueue.java" partName="TestFifoQueue.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab2/src/testqueue/TestFifoQueue.java" title="TestFifoQueue.java" tooltip="lab2/src/testqueue/TestFifoQueue.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab2/src/testqueue/TestFifoQueue.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1376" selectionTopPixel="596"/>
+=======
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleSet.java" partName="SimpleSet.java" path="/home/anton/devel/EDAA01/lab1/src/set/SimpleSet.java" title="SimpleSet.java" tooltip="lab1/src/set/SimpleSet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab1/src/set/SimpleSet.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArraySet.java" partName="ArraySet.java" path="/home/anton/devel/EDAA01/lab1/src/set/ArraySet.java" title="ArraySet.java" tooltip="lab1/src/set/ArraySet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab1/src/set/ArraySet.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestArraySet.java" partName="TestArraySet.java" path="/home/anton/devel/EDAA01/lab1/src/test/TestArraySet.java" title="TestArraySet.java" tooltip="lab1/src/test/TestArraySet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab1/src/test/TestArraySet.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MaxSet.java" partName="MaxSet.java" path="/home/anton/devel/EDAA01/lab1/src/set/MaxSet.java" title="MaxSet.java" tooltip="lab1/src/set/MaxSet.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab1/src/set/MaxSet.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+>>>>>>> origin/master
 </editor>
 </editors>
 <views>
@@ -58,9 +76,9 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Warnings (28 items)"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="108" org.eclipse.ui.ide.markerType="300" org.eclipse.ui.ide.pathField="168" org.eclipse.ui.ide.resourceField="138" org.eclipse.ui.ide.severityAndDescriptionField="433"/>
+<columnWidths org.eclipse.ui.ide.locationField="108" org.eclipse.ui.ide.markerType="558" org.eclipse.ui.ide.pathField="168" org.eclipse.ui.ide.resourceField="138" org.eclipse.ui.ide.severityAndDescriptionField="433"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -339,12 +357,18 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab1/src/set/MaxSet.java"/>
+<<<<<<< HEAD
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab1/src/test/TestMaxSet.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab1/src/set/UniqueMaxSet.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab1/src/test/TestArraySet.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab2/src/queue/FifoQueue.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab1/src/set/ArraySet.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab2/src/testqueue/TestFifoQueue.java"/>
+=======
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab1/src/test/TestArraySet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab1/src/set/ArraySet.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab1/src/set/SimpleSet.java"/>
+>>>>>>> origin/master
 </editors>
 <item historyLabel="MaxSet.java" index="0">
 <position info="not_deleted" x="1811" y="0"/>
@@ -484,6 +508,7 @@
 <item historyLabel="FifoQueue.java" index="4">
 <position info="not_deleted" x="1816" y="0"/>
 </item>
+<<<<<<< HEAD
 <item historyLabel="TestFifoQueue.java" index="6">
 <position info="not_deleted" x="1376" y="0"/>
 </item>
@@ -495,6 +520,37 @@
 </item>
 <item active="true" historyLabel="TestFifoQueue.java" index="6">
 <position info="not_deleted" x="1376" y="0"/>
+=======
+<item historyLabel="MaxSet.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MaxSet.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestArraySet.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestArraySet.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ArraySet.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ArraySet.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SimpleSet.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SimpleSet.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MaxSet.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="SimpleSet.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+>>>>>>> origin/master
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
