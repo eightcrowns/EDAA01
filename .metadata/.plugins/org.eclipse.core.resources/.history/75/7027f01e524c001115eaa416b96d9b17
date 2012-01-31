@@ -82,6 +82,7 @@ implements Queue<E> {
 		}
 	}
 
+
 	private static class QueueNode<E> {
 		E element;
 		QueueNode<E> next;
@@ -90,26 +91,7 @@ implements Queue<E> {
 			element = x;
 			next = null;
 		}
-	}
-	
-	private class QueueIterator implements Iterator<E> {
-		private QueueNode<E> pos;
-		
-		private QueueIterator() {
-			
-		}
-		
-		public boolean hasNext() {
-			
-		}
-		
-		public E next() {
-			
-		}
-		
-		public void remove() {
-			throw new UnsupportedOperationException();
-		}
+
 	}
 
 }
