@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 
 public class ArraySet<E> implements SimpleSet<E> {
-	private ArrayList<E> set;
+	protected ArrayList<E> set;
 
 	/**
 	 * Constructs a new empty set.
@@ -77,7 +77,7 @@ public class ArraySet<E> implements SimpleSet<E> {
 	* specified set are added to this set.
 	* @return true if this set changed as a result of the call
 	*/
-	boolean addAll(SimpleSet<? extends E> s) {
+	public boolean addAll(SimpleSet<? extends E> s) {
 		Iterator<? extends E> it = s.iterator();
 		boolean changed = false;
 		while (it.hasNext()) {

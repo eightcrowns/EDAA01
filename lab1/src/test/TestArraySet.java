@@ -116,4 +116,18 @@ public class TestArraySet {
 		}
 	}
 
+	@Test
+	public final void testAddAll() {
+		ArraySet<Integer> newSet = new ArraySet<Integer>();
+		newSet.add(1);
+		newSet.add(2);
+		newSet.add(3);
+		assertTrue("s är oförändrat", s.addAll(newSet));
+		assertEquals("Size != 3", 3, s.size());
+		newSet.add(1);
+		newSet.add(2);
+		newSet.add(3);
+		assertFalse("s är oförändrat", s.addAll(newSet));
+		assertEquals("Size != 3", 3, s.size());
+		}
 }

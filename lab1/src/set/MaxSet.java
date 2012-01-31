@@ -1,7 +1,6 @@
 package set;
 
 import java.util.NoSuchElementException;
-import java.util.Iterator;
 
 
 public class MaxSet<E extends Comparable<E>> extends ArraySet<E> {
@@ -21,7 +20,10 @@ public class MaxSet<E extends Comparable<E>> extends ArraySet<E> {
 	@throws NoSuchElementException if this set is empty 
 	*/ 
 	public E getMax() {
-		return null;
+		if (isEmpty()) {
+			throw new NoSuchElementException();
+		}
+		return maxElement;
 	}
 	
 	/** 
@@ -31,7 +33,12 @@ public class MaxSet<E extends Comparable<E>> extends ArraySet<E> {
 	 * @return true if the specified element was added
 	 */
 	public boolean add(E x) {
-		return false;
+		if (isEmpty()) {
+			maxElement = x;
+		} else if (x.compareTo(maxElement) > 0) {
+			maxElement = x;
+		}
+		return super.add(x);
 	}
 	
 	/** 
@@ -41,7 +48,9 @@ public class MaxSet<E extends Comparable<E>> extends ArraySet<E> {
 	 * @return true if the set contained the specified element
 	 */
 	public boolean remove(Object x) {
-		return false;
+		boolean updated = super.remove(x);
+		updateMaxElement();
+		return updated;
 	}
 	
 	/** Adds all of the elements in the specified set, for which it is 
@@ -51,7 +60,20 @@ public class MaxSet<E extends Comparable<E>> extends ArraySet<E> {
 	@return true if this set changed as a result of the call 
 	*/
 	public boolean addAll(SimpleSet<? extends E> c) {
-		return false;
+		return super.addAll(c);
 	}
 	
+	private void updateMaxElement() {
+		if (!isEmpty()) {
+			E max = set.get(0);
+			for (E x : set) {
+				if (x.compareTo(max) > 0) {
+					max = x;
+				}
+			}
+			maxElement = max;
+		} else {
+			maxElement = null;
+		}
+	}
 }
