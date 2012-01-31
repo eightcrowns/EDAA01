@@ -7,7 +7,8 @@ implements Queue<E> {
 	private int size;
 
 	public FifoQueue() {
-
+		last = null;
+		size = 0;
 	}
 
 	/**	
@@ -23,7 +24,7 @@ implements Queue<E> {
 	 * @return the number of elements in this queue
 	 */
 	public int size() {		
-		return 0;
+		return size;
 	}
 
 	/**	
@@ -34,6 +35,16 @@ implements Queue<E> {
 	 * 			to this queue, else false
 	 */
 	public boolean offer(E x) {
+		if (size == 0) {
+			last = new QueueNode<E>(x);
+			last.next = last;
+		} else {
+			QueueNode<E> prevLast = last, first = last.next;
+			last = new QueueNode<E>(x);
+			prevLast.next = last;
+			last.next = first;
+		}
+		size++;
 		return true;
 	}
 
@@ -44,7 +55,17 @@ implements Queue<E> {
 	 * @return 	the head of this queue, or null if the queue is empty 
 	 */
 	public E poll() {
-		return null;
+		if (size > 0) {
+			QueueNode<E> first = last.next;
+			last.next = last.next.next;
+			size--;
+			if (size == 0) {
+				last = null;
+			}
+			return first.element;
+		} else {
+			return null;
+		}
 	}
 
 	/**	
@@ -54,7 +75,11 @@ implements Queue<E> {
 	 * 			if this queue is empty
 	 */
 	public E peek() {
-		return null;
+		if (last != null) {
+			return last.next.element;
+		} else {
+			return null;
+		}
 	}
 
 
