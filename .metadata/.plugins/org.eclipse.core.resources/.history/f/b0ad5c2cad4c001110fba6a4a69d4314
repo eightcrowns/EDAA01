@@ -1,0 +1,28 @@
+package testqueue;
+
+import org.junit.After;
+import org.junit.Before;
+
+import queue.FifoQueue;
+
+
+public class TestAppendFifoQueue {
+	private FifoQueue<Integer> myIntQueue1, myIntQueue2;
+
+	@Before
+	public void setUp() throws Exception {
+		myIntQueue1 = new FifoQueue<Integer>();
+		myIntQueue2 = new FifoQueue<Integer>();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		myIntQueue1 = null;
+		myIntQueue2 = null;
+	}
+	
+	@Test
+	public final void testEmptyToEmpty() {
+		
+	}
+}

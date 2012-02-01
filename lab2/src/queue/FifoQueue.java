@@ -16,7 +16,7 @@ implements Queue<E> {
 	 * @return an iterator over the elements in this queue
 	 */	
 	public Iterator<E> iterator() {
-		return null;
+		return new QueueIterator();
 	}
 
 	/**	
@@ -96,20 +96,60 @@ implements Queue<E> {
 		private QueueNode<E> pos;
 		
 		private QueueIterator() {
-			
+			if (last != null) {
+				pos = last.next;
+			} else {
+				pos = null;
+			}
 		}
 		
 		public boolean hasNext() {
-			
+			if (pos != null) {
+				if (size > 1 && pos != last) {
+					return true;
+				} else {
+					
+				}
+			}
+			return pos != last && pos != null;
 		}
 		
 		public E next() {
-			
+			if (hasNext()) {
+				E item = pos.element;
+				if (size > 1) {
+					pos = pos.next;
+				} else {
+					pos = null;
+				}
+				return item;
+			} else {
+				throw new NoSuchElementException();
+			}
 		}
 		
 		public void remove() {
 			throw new UnsupportedOperationException();
 		}
+	}
+	
+	public void append(FifoQueue<E> q) {
+		if (last != null) {
+			if (q.last != null) {
+				QueueNode<E> first = last.next;
+				last.next = q.last.next;
+				last = q.last;
+				last.next = first;
+				size += q.size;
+			}
+		} else {
+			if (q.last != null) {
+				last = q.last;
+				size = q.size;
+			}
+		}
+		q.last = null;
+		q.size = 0;
 	}
 
 }

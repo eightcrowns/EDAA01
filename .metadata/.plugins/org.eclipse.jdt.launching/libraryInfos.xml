@@ -19,6 +19,28 @@
 <entry path="/System/Library/Frameworks/JavaVM.framework/Versions/1.4.2/Home/lib/endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="/usr/lib/jvm/java-6-openjdk/jre" version="1.6.0_22">
+<bootpath>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/resources.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/rt.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/sunrsasign.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/jsse.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/jce.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/charsets.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/netx.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/plugin.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/rhino.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/modules/jdk.boot.jar"/>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/ext"/>
+<entry path="/usr/java/packages/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/usr/lib/jvm/java-6-openjdk/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 <libraryInfo home="/System/Library/Frameworks/JavaVM.framework/Versions/1.4/Home" version="1.4.2_18">
 <bootpath>
 <entry path="/System/Library/Frameworks/JavaVM.framework/Versions/1.4.2/Classes/classes.jar"/>
@@ -82,7 +104,7 @@
 <entry path="/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/endorsed"/>
 </endorsedDirs>
 </libraryInfo>
-<libraryInfo home="/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home" version="1.6.0_07">
+<libraryInfo home="/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home" version="1.6.0_07">
 <bootpath>
 <entry path="/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar"/>
 <entry path="/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/ui.jar"/>
@@ -101,7 +123,7 @@
 <entry path="/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/lib/endorsed"/>
 </endorsedDirs>
 </libraryInfo>
-<libraryInfo home="/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home" version="1.6.0_07">
+<libraryInfo home="/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home" version="1.6.0_07">
 <bootpath>
 <entry path="/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/classes.jar"/>
 <entry path="/System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Classes/ui.jar"/>

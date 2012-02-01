@@ -1,0 +1,6 @@
+package testqueue;
+
+
+public class TestAppendFifoQueue {
+
+}
