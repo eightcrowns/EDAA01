@@ -11,9 +11,7 @@ public class Side {
 	
 	public boolean equals(Object obj) {
 		if (obj instanceof Side) {
-			return p1.equals(((Side) obj).p1) && p2.equals(((Side) obj).p2);
-		} else {
-			return false;
+			return p1.equals(((Side) obj));
 		}
 	}
 }

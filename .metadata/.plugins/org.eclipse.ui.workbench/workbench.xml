@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="21" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="30">
 <fastViewData fastViewLocation="1024"/>
@@ -34,40 +34,47 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fractal.java" partName="Fractal.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/fractal/Fractal.java" title="Fractal.java" tooltip="lab3/src/fractal/Fractal.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/fractal/Fractal.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="185" selectionTopPixel="0"/>
-</editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FractalApplication.java" partName="FractalApplication.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/fractal/FractalApplication.java" title="FractalApplication.java" tooltip="lab3/src/fractal/FractalApplication.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/fractal/FractalApplication.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="55" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="345" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Koch.java" partName="Koch.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/koch/Koch.java" title="Koch.java" tooltip="lab3/src/koch/Koch.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/koch/Koch.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="747" selectionOffset="456" selectionTopPixel="248"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="871" selectionTopPixel="210"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RandomMountain.java" partName="RandomMountain.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/mountain/RandomMountain.java" title="RandomMountain.java" tooltip="lab3/src/mountain/RandomMountain.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/mountain/RandomMountain.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="797" selectionTopPixel="173"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleGraphics.java" partName="TurtleGraphics.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/fractal/TurtleGraphics.java" title="TurtleGraphics.java" tooltip="lab3/src/fractal/TurtleGraphics.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/fractal/TurtleGraphics.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1089"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1405"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Mountain.java" partName="Mountain.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/mountain/Mountain.java" title="Mountain.java" tooltip="lab3/src/mountain/Mountain.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/mountain/Mountain.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="141" selectionTopPixel="136"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Side.java" partName="Side.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/mountain/Side.java" title="Side.java" tooltip="lab3/src/mountain/Side.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/mountain/Side.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="235" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point.java" partName="Point.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/mountain/Point.java" title="Point.java" tooltip="lab3/src/mountain/Point.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/mountain/Point.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Mountain.java" partName="Mountain.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/mountain/Mountain.java" title="Mountain.java" tooltip="lab3/src/mountain/Mountain.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/mountain/Mountain.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="788" selectionTopPixel="99"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="837" selectionTopPixel="193"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
 <viewState failuresOnly="false" layout="1" orientation="2" ratio="500" scroll="false" time="true"/>
 </view>
-<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy">
+<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" input="=lab3/src&lt;fractal{Fractal.java[Fractal" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" selection="=lab3/src&lt;fractal{Fractal.java[Fractal" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName="Aggregate for window 1328019494587"/>
+</view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
 <viewState/>
 </view>
@@ -100,10 +107,10 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
+<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
-<category IMemento.internal.id="Warnings (21 items)"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="73" org.eclipse.ui.ide.markerType="898" org.eclipse.ui.ide.pathField="143" org.eclipse.ui.ide.resourceField="108" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -181,44 +188,31 @@
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.jdt.junit.ResultView"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7495069" ratioLeft="760" ratioRight="254" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7495069" ratioLeft="760" ratioRight="254" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25936884" ratioLeft="263" ratioRight="751" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.69655174" ratioLeft="606" ratioRight="264" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.jdt.junit.ResultView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<info folder="true" part="bottomRight" ratio="0.69655174" ratioLeft="606" ratioRight="264" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.jdt.junit.ResultView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="313" ratioRight="313" relationship="4" relative="topLeft">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="bottomLeft" ratio="0.5" ratioLeft="313" ratioRight="313" relationship="4" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -283,7 +277,7 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7491409" ratioLeft="654" ratioRight="219" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.jdt.junit.ResultView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
@@ -378,8 +372,13 @@
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
@@ -421,14 +420,12 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.7496513" ratioLeft="1075" ratioRight="359" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="right" ratio="0.7346637" ratioLeft="994" ratioRight="359" relationship="2" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -438,164 +435,163 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/Fractal.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/FractalApplication.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/koch/Koch.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/FractalView.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/OrderDownButton.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/CommandPanel.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/Point.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/Mountain.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/FractalApplication.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/RandomUtilities.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/RandomMountain.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/RandomTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/Side.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/Point.java"/>
 </editors>
-<item historyLabel="OrderDownButton.java" index="4">
-<position info="not_deleted" x="437" y="0"/>
+<item historyLabel="RandomTest.java" index="4">
+<position info="not_deleted" x="169" y="0"/>
 </item>
-<item historyLabel="OrderDownButton.java" index="4">
-<position info="not_deleted" x="519" y="0"/>
+<item historyLabel="RandomTest.java" index="4">
+<position info="not_deleted" x="83" y="0"/>
 </item>
-<item historyLabel="CommandPanel.java" index="5">
-<position info="not_deleted" x="222" y="0"/>
+<item historyLabel="RandomTest.java" index="4">
+<position info="not_deleted" x="83" y="0"/>
 </item>
-<item historyLabel="OrderDownButton.java" index="4">
-<position info="not_deleted" x="519" y="0"/>
-</item>
-<item historyLabel="FractalView.java" index="3">
-<position info="not_deleted" x="450" y="0"/>
-</item>
-<item historyLabel="FractalApplication.java" index="1">
+<item historyLabel="RandomUtilities.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Point.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Mountain.java" index="0">
+<position info="not_deleted" x="130" y="0"/>
 </item>
-<item historyLabel="Mountain.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="RandomMountain.java" index="3">
+<position info="not_deleted" x="411" y="0"/>
 </item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="990" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="7">
-<position info="not_deleted" x="248" y="0"/>
-</item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="990" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="7">
-<position info="not_deleted" x="248" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="7">
-<position/>
-</item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="237" y="0"/>
-</item>
-<item historyLabel="Fractal.java" index="0">
-<position info="not_deleted" x="185" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="7">
-<position/>
-</item>
-<item historyLabel="Mountain.java" index="7">
-<position/>
-</item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="237" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="7">
-<position info="not_deleted" x="248" y="0"/>
-</item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="237" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="7">
-<position info="not_deleted" x="248" y="0"/>
-</item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="695" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="7">
-<position info="not_deleted" x="1061" y="0"/>
-</item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="695" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="7">
-<position info="not_deleted" x="1061" y="0"/>
-</item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="695" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="7">
-<position info="not_deleted" x="1061" y="0"/>
-</item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="695" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="7">
-<position/>
-</item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="695" y="0"/>
+<item historyLabel="RandomMountain.java" index="3">
+<position info="not_deleted" x="863" y="1"/>
 </item>
 <item historyLabel="FractalApplication.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<position info="not_deleted" x="345" y="0"/>
 </item>
-<item historyLabel="Fractal.java" index="0">
-<position info="not_deleted" x="185" y="0"/>
-</item>
-<item historyLabel="FractalApplication.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="RandomTest.java" index="4">
+<position info="not_deleted" x="83" y="0"/>
 </item>
 <item historyLabel="FractalApplication.java" index="1">
-<position/>
+<position info="not_deleted" x="345" y="0"/>
 </item>
-<item historyLabel="Mountain.java" index="7">
-<position/>
-</item>
-<item historyLabel="FractalApplication.java" index="1">
-<position/>
-</item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="695" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="7">
-<position/>
-</item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="695" y="0"/>
+<item historyLabel="RandomMountain.java" index="3">
+<position info="not_deleted" x="863" y="1"/>
 </item>
 <item historyLabel="FractalApplication.java" index="1">
-<position/>
+<position info="not_deleted" x="345" y="0"/>
 </item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="514" y="100"/>
+<item historyLabel="RandomMountain.java" index="3">
+<position info="not_deleted" x="918" y="0"/>
 </item>
-<item historyLabel="FractalApplication.java" index="1">
-<position/>
+<item historyLabel="RandomMountain.java" index="3">
+<position info="not_deleted" x="1261" y="0"/>
 </item>
-<item historyLabel="Mountain.java" index="7">
-<position/>
+<item historyLabel="RandomMountain.java" index="3">
+<position info="not_deleted" x="1263" y="0"/>
 </item>
-<item historyLabel="FractalApplication.java" index="1">
+<item historyLabel="RandomMountain.java" index="3">
+<position info="not_deleted" x="893" y="0"/>
+</item>
+<item historyLabel="Mountain.java" index="0">
+<position info="not_deleted" x="141" y="0"/>
+</item>
+<item historyLabel="RandomMountain.java" index="3">
+<position info="not_deleted" x="1184" y="0"/>
+</item>
+<item historyLabel="Side.java" index="5">
+<position info="not_deleted" x="254" y="0"/>
+</item>
+<item historyLabel="RandomMountain.java" index="3">
+<position info="not_deleted" x="1184" y="0"/>
+</item>
+<item historyLabel="RandomMountain.java" index="3">
+<position info="not_deleted" x="157" y="0"/>
+</item>
+<item historyLabel="RandomMountain.java" index="3">
+<position info="not_deleted" x="304" y="0"/>
+</item>
+<item historyLabel="RandomMountain.java" index="3">
+<position info="not_deleted" x="797" y="0"/>
+</item>
+<item historyLabel="Side.java" index="5">
+<position info="not_deleted" x="254" y="0"/>
+</item>
+<item historyLabel="Side.java" index="5">
 <position/>
 </item>
 <item historyLabel="Point.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="514" y="100"/>
-</item>
-<item historyLabel="FractalApplication.java" index="1">
-<position info="not_deleted" x="55" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="7">
 <position/>
 </item>
-<item historyLabel="Koch.java" index="2">
-<position info="not_deleted" x="456" y="747"/>
-</item>
-<item active="true" historyLabel="Mountain.java" index="7">
+<item historyLabel="Side.java" index="5">
 <position/>
+</item>
+<item historyLabel="RandomMountain.java" index="3">
+<position info="not_deleted" x="797" y="0"/>
+</item>
+<item historyLabel="Side.java" index="5">
+<position info="not_deleted" x="186" y="0"/>
+</item>
+<item historyLabel="Mountain.java" index="0">
+<position info="not_deleted" x="141" y="0"/>
+</item>
+<item historyLabel="RandomMountain.java" index="3">
+<position info="not_deleted" x="797" y="0"/>
+</item>
+<item historyLabel="Side.java" index="5">
+<position info="not_deleted" x="251" y="0"/>
+</item>
+<item historyLabel="Side.java" index="5">
+<position/>
+</item>
+<item historyLabel="Point.java" index="6">
+<position info="not_deleted" x="872" y="0"/>
+</item>
+<item historyLabel="Side.java" index="5">
+<position/>
+</item>
+<item historyLabel="Point.java" index="6">
+<position info="not_deleted" x="872" y="0"/>
+</item>
+<item historyLabel="Point.java" index="6">
+<position info="not_deleted" x="869" y="0"/>
+</item>
+<item historyLabel="Side.java" index="5">
+<position/>
+</item>
+<item historyLabel="Point.java" index="6">
+<position info="not_deleted" x="869" y="0"/>
+</item>
+<item historyLabel="Point.java" index="6">
+<position info="not_deleted" x="778" y="0"/>
+</item>
+<item historyLabel="Point.java" index="6">
+<position info="not_deleted" x="804" y="0"/>
+</item>
+<item historyLabel="Point.java" index="6">
+<position info="not_deleted" x="828" y="0"/>
+</item>
+<item historyLabel="Point.java" index="6">
+<position info="not_deleted" x="865" y="0"/>
+</item>
+<item historyLabel="Side.java" index="5">
+<position info="not_deleted" x="244" y="0"/>
+</item>
+<item historyLabel="Point.java" index="6">
+<position info="not_deleted" x="837" y="0"/>
+</item>
+<item historyLabel="Side.java" index="5">
+<position info="not_deleted" x="232" y="0"/>
+</item>
+<item historyLabel="Point.java" index="6">
+<position info="not_deleted" x="837" y="0"/>
+</item>
+<item historyLabel="Side.java" index="5">
+<position info="not_deleted" x="192" y="0"/>
+</item>
+<item historyLabel="Point.java" index="6">
+<position info="not_deleted" x="837" y="0"/>
+</item>
+<item active="true" historyLabel="Side.java" index="5">
+<position info="not_deleted" x="192" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -603,11 +599,7 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="bottom"/>
 <trimItem IMemento.internal.id="right"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
@@ -621,11 +613,23 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point.java" tooltip="lab3/src/mountain/Point.java">
+<persistable path="/lab3/src/mountain/Point.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Side.java" tooltip="lab3/src/mountain/Side.java">
+<persistable path="/lab3/src/mountain/Side.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RandomTest.java" tooltip="lab3/src/mountain/RandomTest.java">
+<persistable path="/lab3/src/mountain/RandomTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RandomUtilities.java" tooltip="lab3/src/mountain/RandomUtilities.java">
+<persistable path="/lab3/src/mountain/RandomUtilities.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Mountain.java" tooltip="lab3/src/mountain/Mountain.java">
 <persistable path="/lab3/src/mountain/Mountain.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point.java" tooltip="lab3/src/mountain/Point.java">
-<persistable path="/lab3/src/mountain/Point.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleGraphics.java" tooltip="lab3/src/fractal/TurtleGraphics.java">
+<persistable path="/lab3/src/fractal/TurtleGraphics.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CommandPanel.java" tooltip="lab3/src/fractal/CommandPanel.java">
 <persistable path="/lab3/src/fractal/CommandPanel.java"/>
@@ -638,9 +642,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FractalView.java" tooltip="lab3/src/fractal/FractalView.java">
 <persistable path="/lab3/src/fractal/FractalView.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleGraphics.java" tooltip="lab3/src/fractal/TurtleGraphics.java">
-<persistable path="/lab3/src/fractal/TurtleGraphics.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Koch.java" tooltip="lab3/src/koch/Koch.java">
 <persistable path="/lab3/src/koch/Koch.java"/>
@@ -656,15 +657,6 @@
 </file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Assert.class" tooltip="org.junit.Assert">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=banktest/\/usr\/lib\/eclipse\/plugins\/org.junit4_4.5.0.v20090824\/junit.jar&lt;org.junit(Assert.class"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ReflectiveCallable.class" tooltip="org.junit.internal.runners.model.ReflectiveCallable">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=banktest/\/usr\/lib\/eclipse\/plugins\/org.junit4_4.5.0.v20090824\/junit.jar&lt;org.junit.internal.runners.model(ReflectiveCallable.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestAppendFifoQueue.java" tooltip="lab2/src/testqueue/TestAppendFifoQueue.java">
-<persistable path="/lab2/src/testqueue/TestAppendFifoQueue.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FifoQueueTest.java" tooltip="lab2/src/testqueue/FifoQueueTest.java">
-<persistable path="/lab2/src/testqueue/FifoQueueTest.java"/>
 </file>
 </mruList>
 </workbench>
