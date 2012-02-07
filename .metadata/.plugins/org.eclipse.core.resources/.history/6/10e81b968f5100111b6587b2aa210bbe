@@ -1,17 +1,13 @@
 package mountain;
 
-import java.util.LinkedList;
-
 import fractal.*;
 
 public class RandomMountain extends Mountain {
 	private int dev;
-	private LinkedList<Side> sides;
 
 	public RandomMountain(Point p1, Point p2, Point p3, int dev) {
 		super(p1, p2, p3);
 		this.dev = dev;
-		this.sides = new LinkedList<Side>();
 	}
 	
 	public void draw(TurtleGraphics turtle) {
