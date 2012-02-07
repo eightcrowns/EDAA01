@@ -105,22 +105,18 @@ implements Queue<E> {
 		
 		public boolean hasNext() {
 			if (pos != null) {
-				if (size > 1 && pos != last) {
-					return true;
-				} else {
-					
-				}
+				return true;
 			}
-			return pos != last && pos != null;
+			return false;
 		}
 		
 		public E next() {
 			if (hasNext()) {
 				E item = pos.element;
-				if (size > 1) {
-					pos = pos.next;
-				} else {
+				if (pos == last) {
 					pos = null;
+				} else {
+					pos = pos.next;
 				}
 				return item;
 			} else {

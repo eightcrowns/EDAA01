@@ -141,12 +141,22 @@ public class TestFifoQueue {
 		myIntQueue.offer(3);
 		Iterator<Integer> itr = myIntQueue.iterator();
 		
+		assertEquals("Wrong element returned from iteration", itr.next().intValue(), 1);
+		assertEquals("Wrong element returned from iteration", itr.next().intValue(), 2);
+		assertEquals("Wrong element returned from iteration", itr.next().intValue(), 3);
+	}
+	
+	@Test
+	public final void testIteratorWithOneItem() {
+		myIntQueue.offer(1);
+		Iterator<Integer> itr = myIntQueue.iterator();
+		
 		int i = 1;
 		while (itr.hasNext()) {
 			assertTrue("Wrong element returned from iteration", itr.next() == i);
 			i++;
 		}
-		assertTrue("Iteration not finished", i == 3);
+		assertEquals("Iteration not finished", i, 2);
 	}
 
 }

@@ -1,0 +1,45 @@
+package mountain;
+
+import fractal.*;
+
+public class Mountain extends Fractal {
+	private Point p1;
+	private Point p2;
+	private Point p3;
+
+	public Mountain(Point p1, Point p2, Point p3) {
+		super();
+		this.p1 = p1;
+		this.p2 = p2;
+		this.p3 = p3;
+	}
+	
+	public void draw(TurtleGraphics turtle) {
+		turtle.moveTo(turtle.getWidth() / 2.0 - length / 2.0,
+				turtle.getHeight() / 2.0 + Math.sqrt(3.0) * length / 4.0);
+		fractalLine(turtle, order,length,0);
+		fractalLine(turtle, order,length,120);
+		fractalLine(turtle, order,length,240);
+	}
+
+	/* 
+	 * Reursive method: Draws a recursive line of the triangle. 
+	 */
+	private void fractalLine(TurtleGraphics turtle, int order, double length, int alpha) {
+		if (order == 0) {
+			turtle.setDirection(alpha);
+			turtle.forward(length);
+		} else {
+			fractalLine(turtle, order-1, length/3, alpha);
+			fractalLine(turtle, order-1, length/3, alpha-60);
+			fractalLine(turtle, order-1, length/3, alpha+60);
+			fractalLine(turtle, order-1, length/3, alpha);
+		}
+	}
+
+	@Override
+	public String getTitle() {
+		return "Bergfraktal";
+	}
+
+}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="16" version="2.0">
+<workbench progressCount="20" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="30">
 <fastViewData fastViewLocation="1024"/>
@@ -11,6 +11,7 @@
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="104" y="30"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="104" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
@@ -21,7 +22,7 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1328019494587" focus="true" label="Workspace - Resource">
+<page aggregateWorkingSetId="Aggregate for window 1328019494587" focus="true" label="Workspace - Java">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -30,42 +31,44 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FifoQueue.java" partName="FifoQueue.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab2/src/queue/FifoQueue.java" title="FifoQueue.java" tooltip="lab2/src/queue/FifoQueue.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab2/src/queue/FifoQueue.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2305" selectionTopPixel="1613"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fractal.java" partName="Fractal.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/fractal/Fractal.java" title="Fractal.java" tooltip="lab3/src/fractal/Fractal.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/fractal/Fractal.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="185" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestFifoQueue.java" partName="TestFifoQueue.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab2/src/testqueue/TestFifoQueue.java" title="TestFifoQueue.java" tooltip="lab2/src/testqueue/TestFifoQueue.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab2/src/testqueue/TestFifoQueue.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3524" selectionTopPixel="2050"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FractalApplication.java" partName="FractalApplication.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/fractal/FractalApplication.java" title="FractalApplication.java" tooltip="lab3/src/fractal/FractalApplication.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/fractal/FractalApplication.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="55" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestAppendFifoQueue.java" partName="TestAppendFifoQueue.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab2/src/testqueue/TestAppendFifoQueue.java" title="TestAppendFifoQueue.java" tooltip="lab2/src/testqueue/TestAppendFifoQueue.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab2/src/testqueue/TestAppendFifoQueue.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1609" selectionTopPixel="840"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Koch.java" partName="Koch.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/koch/Koch.java" title="Koch.java" tooltip="lab3/src/koch/Koch.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/koch/Koch.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="747" selectionOffset="456" selectionTopPixel="248"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleGraphics.java" partName="TurtleGraphics.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/fractal/TurtleGraphics.java" title="TurtleGraphics.java" tooltip="lab3/src/fractal/TurtleGraphics.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/fractal/TurtleGraphics.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1089"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point.java" partName="Point.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/mountain/Point.java" title="Point.java" tooltip="lab3/src/mountain/Point.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/mountain/Point.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Mountain.java" partName="Mountain.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab3/src/mountain/Mountain.java" title="Mountain.java" tooltip="lab3/src/mountain/Mountain.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab3/src/mountain/Mountain.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="788" selectionTopPixel="99"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" currentWorkingSetName="Aggregate for window 1328019494587" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
-</view>
 <view id="org.eclipse.jdt.junit.ResultView" partName="JUnit">
 <viewState failuresOnly="false" layout="1" orientation="2" ratio="500" scroll="false" time="true"/>
 </view>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy"/>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
-<viewState>
-<isTrackingSelection value="false"/>
-</viewState>
-</view>
-<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks">
@@ -80,11 +83,70 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState>
+<isTrackingSelection value="false"/>
+</viewState>
+</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" currentWorkingSetName="Aggregate for window 1328019494587" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Warnings (21 items)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="73" org.eclipse.ui.ide.markerType="898" org.eclipse.ui.ide.pathField="143" org.eclipse.ui.ide.resourceField="108" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="Aggregate for window 1250068495950">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.ui.resourcePerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -261,165 +323,279 @@
 </mainWindow>
 </layout>
 </perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="org.eclipse.jdt.junit.ResultView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="Hierarchy"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.16396019" ratioLeft="313" ratioRight="1596" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.74972314" ratioLeft="677" ratioRight="226" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.7496513" ratioLeft="1075" ratioRight="359" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
 </perspectives>
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab2/src/queue/FifoQueue.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab2/src/testqueue/TestAppendFifoQueue.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=banktest/\/usr\/lib\/eclipse\/plugins\/org.junit4_4.5.0.v20090824\/junit.jar&lt;org.junit.internal.runners.statements(RunAfters.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=banktest/\/usr\/lib\/eclipse\/plugins\/org.junit4_4.5.0.v20090824\/junit.jar&lt;org.junit.runners(BlockJUnit4ClassRunner.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab2/src/testqueue/TestFifoQueue.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/Fractal.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/FractalApplication.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/koch/Koch.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/FractalView.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/OrderDownButton.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/CommandPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/Point.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/Mountain.java"/>
 </editors>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1370" y="0"/>
+<item historyLabel="OrderDownButton.java" index="4">
+<position info="not_deleted" x="437" y="0"/>
 </item>
-<item historyLabel="RunAfters.class" index="2">
+<item historyLabel="OrderDownButton.java" index="4">
+<position info="not_deleted" x="519" y="0"/>
+</item>
+<item historyLabel="CommandPanel.java" index="5">
+<position info="not_deleted" x="222" y="0"/>
+</item>
+<item historyLabel="OrderDownButton.java" index="4">
+<position info="not_deleted" x="519" y="0"/>
+</item>
+<item historyLabel="FractalView.java" index="3">
+<position info="not_deleted" x="450" y="0"/>
+</item>
+<item historyLabel="FractalApplication.java" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1370" y="0"/>
-</item>
-<item historyLabel="RunAfters.class" index="2">
+<item historyLabel="Point.java" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1370" y="0"/>
-</item>
-<item historyLabel="BlockJUnit4ClassRunner.class" index="3">
+<item historyLabel="Mountain.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1370" y="0"/>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="990" y="0"/>
 </item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
+<item historyLabel="Mountain.java" index="7">
+<position info="not_deleted" x="248" y="0"/>
+</item>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="990" y="0"/>
+</item>
+<item historyLabel="Mountain.java" index="7">
+<position info="not_deleted" x="248" y="0"/>
+</item>
+<item historyLabel="Mountain.java" index="7">
 <position/>
 </item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1501" y="0"/>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="237" y="0"/>
 </item>
-<item historyLabel="TestFifoQueue.java" index="4">
-<position info="not_deleted" x="20" y="105"/>
+<item historyLabel="Fractal.java" index="0">
+<position info="not_deleted" x="185" y="0"/>
 </item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2809" y="0"/>
-</item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1501" y="0"/>
-</item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1308" y="0"/>
-</item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1370" y="0"/>
-</item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1262" y="0"/>
-</item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1370" y="0"/>
-</item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2876" y="0"/>
-</item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1370" y="0"/>
-</item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1335" y="0"/>
-</item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2827" y="0"/>
-</item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1335" y="0"/>
-</item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2851" y="0"/>
-</item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1335" y="0"/>
-</item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1509" y="0"/>
-</item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2871" y="0"/>
-</item>
-<item historyLabel="TestFifoQueue.java" index="4">
-<position info="not_deleted" x="20" y="105"/>
-</item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1509" y="0"/>
-</item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2871" y="0"/>
-</item>
-<item historyLabel="TestFifoQueue.java" index="4">
-<position info="not_deleted" x="20" y="105"/>
-</item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2990" y="0"/>
-</item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
+<item historyLabel="Mountain.java" index="7">
 <position/>
 </item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2990" y="0"/>
-</item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
+<item historyLabel="Mountain.java" index="7">
 <position/>
 </item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2990" y="0"/>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="237" y="0"/>
 </item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1539" y="0"/>
+<item historyLabel="Mountain.java" index="7">
+<position info="not_deleted" x="248" y="0"/>
 </item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2990" y="0"/>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="237" y="0"/>
 </item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1672" y="0"/>
+<item historyLabel="Mountain.java" index="7">
+<position info="not_deleted" x="248" y="0"/>
 </item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2990" y="0"/>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="695" y="0"/>
 </item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1672" y="0"/>
+<item historyLabel="Mountain.java" index="7">
+<position info="not_deleted" x="1061" y="0"/>
 </item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1654" y="0"/>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="695" y="0"/>
 </item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1670" y="0"/>
+<item historyLabel="Mountain.java" index="7">
+<position info="not_deleted" x="1061" y="0"/>
 </item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1621" y="0"/>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="695" y="0"/>
 </item>
-<item historyLabel="TestFifoQueue.java" index="4">
-<position info="not_deleted" x="3655" y="46"/>
+<item historyLabel="Mountain.java" index="7">
+<position info="not_deleted" x="1061" y="0"/>
 </item>
-<item historyLabel="TestAppendFifoQueue.java" index="1">
-<position info="not_deleted" x="1609" y="0"/>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="695" y="0"/>
 </item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2990" y="0"/>
+<item historyLabel="Mountain.java" index="7">
+<position/>
 </item>
-<item historyLabel="TestFifoQueue.java" index="4">
-<position info="not_deleted" x="3524" y="0"/>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="695" y="0"/>
 </item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2990" y="0"/>
+<item historyLabel="FractalApplication.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2438" y="0"/>
+<item historyLabel="Fractal.java" index="0">
+<position info="not_deleted" x="185" y="0"/>
 </item>
-<item historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2224" y="0"/>
+<item historyLabel="FractalApplication.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="FifoQueue.java" index="0">
-<position info="not_deleted" x="2259" y="0"/>
+<item historyLabel="FractalApplication.java" index="1">
+<position/>
+</item>
+<item historyLabel="Mountain.java" index="7">
+<position/>
+</item>
+<item historyLabel="FractalApplication.java" index="1">
+<position/>
+</item>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="Mountain.java" index="7">
+<position/>
+</item>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="695" y="0"/>
+</item>
+<item historyLabel="FractalApplication.java" index="1">
+<position/>
+</item>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="514" y="100"/>
+</item>
+<item historyLabel="FractalApplication.java" index="1">
+<position/>
+</item>
+<item historyLabel="Mountain.java" index="7">
+<position/>
+</item>
+<item historyLabel="FractalApplication.java" index="1">
+<position/>
+</item>
+<item historyLabel="Point.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="514" y="100"/>
+</item>
+<item historyLabel="FractalApplication.java" index="1">
+<position info="not_deleted" x="55" y="0"/>
+</item>
+<item historyLabel="Mountain.java" index="7">
+<position/>
+</item>
+<item historyLabel="Koch.java" index="2">
+<position info="not_deleted" x="456" y="747"/>
+</item>
+<item active="true" historyLabel="Mountain.java" index="7">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -427,6 +603,13 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="bottom"/>
+<trimItem IMemento.internal.id="right"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -438,6 +621,42 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Mountain.java" tooltip="lab3/src/mountain/Mountain.java">
+<persistable path="/lab3/src/mountain/Mountain.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Point.java" tooltip="lab3/src/mountain/Point.java">
+<persistable path="/lab3/src/mountain/Point.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CommandPanel.java" tooltip="lab3/src/fractal/CommandPanel.java">
+<persistable path="/lab3/src/fractal/CommandPanel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OrderDownButton.java" tooltip="lab3/src/fractal/OrderDownButton.java">
+<persistable path="/lab3/src/fractal/OrderDownButton.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OrderUpButton.java" tooltip="lab3/src/fractal/OrderUpButton.java">
+<persistable path="/lab3/src/fractal/OrderUpButton.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FractalView.java" tooltip="lab3/src/fractal/FractalView.java">
+<persistable path="/lab3/src/fractal/FractalView.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleGraphics.java" tooltip="lab3/src/fractal/TurtleGraphics.java">
+<persistable path="/lab3/src/fractal/TurtleGraphics.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Koch.java" tooltip="lab3/src/koch/Koch.java">
+<persistable path="/lab3/src/koch/Koch.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FractalApplication.java" tooltip="lab3/src/fractal/FractalApplication.java">
+<persistable path="/lab3/src/fractal/FractalApplication.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fractal.java" tooltip="lab3/src/fractal/Fractal.java">
+<persistable path="/lab3/src/fractal/Fractal.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MaxSet.java" tooltip="lab1/src/set/MaxSet.java">
+<persistable path="/lab1/src/set/MaxSet.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Assert.class" tooltip="org.junit.Assert">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=banktest/\/usr\/lib\/eclipse\/plugins\/org.junit4_4.5.0.v20090824\/junit.jar&lt;org.junit(Assert.class"/>
+</file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ReflectiveCallable.class" tooltip="org.junit.internal.runners.model.ReflectiveCallable">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=banktest/\/usr\/lib\/eclipse\/plugins\/org.junit4_4.5.0.v20090824\/junit.jar&lt;org.junit.internal.runners.model(ReflectiveCallable.class"/>
 </file>
@@ -446,15 +665,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FifoQueueTest.java" tooltip="lab2/src/testqueue/FifoQueueTest.java">
 <persistable path="/lab2/src/testqueue/FifoQueueTest.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestFifoQueue.java" tooltip="lab2/src/testqueue/TestFifoQueue.java">
-<persistable path="/lab2/src/testqueue/TestFifoQueue.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FifoQueue.java" tooltip="lab2/src/queue/FifoQueue.java">
-<persistable path="/lab2/src/queue/FifoQueue.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestMaxSet.java" tooltip="lab1/src/test/TestMaxSet.java">
-<persistable path="/lab1/src/test/TestMaxSet.java"/>
 </file>
 </mruList>
 </workbench>
