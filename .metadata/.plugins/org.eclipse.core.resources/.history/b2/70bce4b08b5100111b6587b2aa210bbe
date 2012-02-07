@@ -2,16 +2,12 @@ package mountain;
 
 import fractal.*;
 
-public class Mountain extends Fractal {
-	protected Point p1;
-	protected Point p2;
-	protected Point p3;
+public class RandomMountain extends Mountain {
+	private int dev;
 
-	public Mountain(Point p1, Point p2, Point p3) {
-		super();
-		this.p1 = p1;
-		this.p2 = p2;
-		this.p3 = p3;
+	public RandomMountain(Point p1, Point p2, Point p3, int dev) {
+		super(p1, p2, p3);
+		this.dev = dev;
 	}
 	
 	public void draw(TurtleGraphics turtle) {
@@ -29,9 +25,10 @@ public class Mountain extends Fractal {
 			turtle.forwardTo(c.getX(), c.getY());
 			turtle.forwardTo(a.getX(), a.getY());
 		} else {
-			Point ab = new Point((a.getX() + b.getX()) / 2, (a.getY() + b.getY()) / 2);
-			Point bc = new Point((b.getX() + c.getX()) / 2, (b.getY() + c.getY()) / 2);
-			Point ca = new Point((c.getX() + a.getX()) / 2, (c.getY() + a.getY()) / 2);
+			Point ab = new Point((a.getX() + b.getX()) / 2, (a.getY() + b.getY()) / 2 + RandomUtilities.randFunc(dev / Math.pow(2, order)));
+			Point bc = new Point((b.getX() + c.getX()) / 2, (b.getY() + c.getY()) / 2 + RandomUtilities.randFunc(dev / Math.pow(2, order)));
+			Point ca = new Point((c.getX() + a.getX()) / 2, (c.getY() + a.getY()) / 2 + RandomUtilities.randFunc(dev / Math.pow(2, order)));
+			System.out.println(dev / Math.pow(2, order));
 			fractalTriangle(turtle, order-1, a, ab, ca);
 			fractalTriangle(turtle, order-1, ab, b, bc);
 			fractalTriangle(turtle, order-1, bc, c, ca);
@@ -41,7 +38,7 @@ public class Mountain extends Fractal {
 
 	@Override
 	public String getTitle() {
-		return "Bergfraktal";
+		return "Slumpmässig bergfraktal";
 	}
 
 }
