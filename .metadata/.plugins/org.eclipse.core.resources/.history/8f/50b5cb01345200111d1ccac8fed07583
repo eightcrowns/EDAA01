@@ -28,15 +28,7 @@ public class BinarySearchTree<E extends Comparable<? super E>> {
 		return height(root);
 	}
 	
-	private int height(BinaryNode<E> node) {
-		if (node == null) {
-			return 0;
-		} else {
-			int leftHeight = height(node.left);
-			int rightHeight = height(node.right);
-			return 1 + Math.max(leftHeight, rightHeight);
-		}
-	}
+	
 	
 	/**
 	 * Returns the number of elements in this tree.
