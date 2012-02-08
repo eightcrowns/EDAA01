@@ -36,21 +36,21 @@ public class RandomMountain extends Mountain {
 			Side s = new Side(a, b);
 			int abIndex = sides.indexOf(s);
 			if (abIndex >= 0) {
-				ab = sides.remove(abIndex).getM();
+				ab = sides.get(abIndex).getM();
 			} else {
 				ab = new Point((a.getX() + b.getX()) / 2, (a.getY() + b.getY()) / 2 + RandomUtilities.randFunc(dev / Math.pow(2, order)));
 				sides.add(new Side(a, b, ab));
 			}
 			int bcIndex = sides.indexOf(new Side(b, c));
 			if (bcIndex >= 0) {
-				bc = sides.remove(bcIndex).getM();
+				bc = sides.get(bcIndex).getM();
 			} else {
 				bc = new Point((b.getX() + c.getX()) / 2, (b.getY() + c.getY()) / 2 + RandomUtilities.randFunc(dev / Math.pow(2, order)));
 				sides.add(new Side(b, c, bc));
 			}
 			int caIndex = sides.indexOf(new Side(c, a));
 			if (caIndex >= 0) {
-				ca = sides.remove(caIndex).getM();
+				ca = sides.get(caIndex).getM();
 			} else {
 				ca = new Point((c.getX() + a.getX()) / 2, (c.getY() + a.getY()) / 2 + RandomUtilities.randFunc(dev / Math.pow(2, order)));
 				sides.add(new Side(c, a, ca));
