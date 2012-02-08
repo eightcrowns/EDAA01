@@ -372,3 +372,12 @@ org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 2; The content of e
 	at org.eclipse.ui.internal.Workbench.restoreState(Workbench.java:2083)
 	at org.eclipse.ui.internal.WorkbenchConfigurer.restoreState(WorkbenchConfigurer.java:183)
 	at org.eclipse.ui.application.WorkbenchAdvisor$1.run(WorkbenchAdvisor.java:781)
+!SESSION 2012-02-08 08:16:24.582 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-02-08 08:16:31.187
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

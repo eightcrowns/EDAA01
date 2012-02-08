@@ -42,4 +42,8 @@ public class Point {
 			return false;
 		}
 	}
+	
+	public String toString() {
+		return new String("(" + x + ", " + y + ")");
+	}
 }
