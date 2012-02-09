@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="21" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="30">
 <fastViewData fastViewLocation="1024"/>
@@ -29,13 +29,18 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearchTree.java" partName="BinarySearchTree.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab4/src/bst/BinarySearchTree.java" title="BinarySearchTree.java" tooltip="lab4/src/bst/BinarySearchTree.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearchTree.java" partName="BinarySearchTree.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab4/src/bst/BinarySearchTree.java" title="BinarySearchTree.java" tooltip="lab4/src/bst/BinarySearchTree.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab4/src/bst/BinarySearchTree.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="415" selectionTopPixel="147"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sudoku.java" partName="Sudoku.java" path="/h/d5/d/dat11ael/devel/EDAA01/sudoku/src/Sudoku.java" title="Sudoku.java" tooltip="sudoku/src/Sudoku.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sudoku/src/Sudoku.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="597" selectionTopPixel="172"/>
 </editor>
 </editors>
 <views>
@@ -77,6 +82,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
+<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
@@ -225,60 +231,44 @@
 <view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7491409" ratioLeft="654" ratioRight="219" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.7491409" ratioLeft="654" ratioRight="219" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.44954127" ratioLeft="294" ratioRight="360" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="836" ratioRight="836" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="836" ratioRight="836" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -405,166 +395,162 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/RandomMountain.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/Point.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/Side.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/FractalApplication.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/TurtleGraphics.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/Mountain.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/DrawingPanel.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/koch/Koch.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/Point.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab4/src/bst/BinarySearchTree.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab4/src/bst/BSTVisualizer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/sudoku/src/Sudoku.java"/>
 </editors>
-<item historyLabel="Point.java" index="1">
-<position info="not_deleted" x="782" y="0"/>
-</item>
-<item historyLabel="Point.java" index="1">
-<position info="not_deleted" x="899" y="0"/>
-</item>
-<item historyLabel="Point.java" index="1">
-<position info="not_deleted" x="947" y="0"/>
-</item>
-<item historyLabel="Point.java" index="1">
-<position info="not_deleted" x="936" y="0"/>
-</item>
-<item historyLabel="Point.java" index="1">
-<position info="not_deleted" x="946" y="0"/>
-</item>
-<item historyLabel="Point.java" index="1">
-<position info="not_deleted" x="949" y="0"/>
-</item>
-<item historyLabel="Side.java" index="2">
-<position info="not_deleted" x="82" y="0"/>
-</item>
-<item historyLabel="RandomMountain.java" index="0">
-<position info="not_deleted" x="488" y="0"/>
-</item>
-<item historyLabel="FractalApplication.java" index="3">
-<position info="not_deleted" x="344" y="0"/>
-</item>
-<item historyLabel="RandomMountain.java" index="0">
-<position info="not_deleted" x="879" y="0"/>
-</item>
-<item historyLabel="Side.java" index="2">
-<position info="not_deleted" x="502" y="0"/>
-</item>
-<item historyLabel="Point.java" index="1">
-<position info="not_deleted" x="902" y="0"/>
-</item>
-<item historyLabel="Side.java" index="2">
-<position info="not_deleted" x="502" y="0"/>
-</item>
-<item historyLabel="RandomMountain.java" index="0">
-<position info="not_deleted" x="405" y="91"/>
-</item>
-<item historyLabel="FractalApplication.java" index="3">
-<position info="not_deleted" x="344" y="0"/>
-</item>
-<item historyLabel="TurtleGraphics.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="5">
-<position info="not_deleted" x="141" y="0"/>
-</item>
-<item historyLabel="DrawingPanel.java" index="6">
-<position info="not_deleted" x="588" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="5">
-<position info="not_deleted" x="141" y="0"/>
-</item>
-<item historyLabel="TurtleGraphics.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FractalApplication.java" index="3">
-<position info="not_deleted" x="344" y="0"/>
-</item>
-<item historyLabel="Koch.java" index="7">
-<position info="not_deleted" x="872" y="0"/>
-</item>
-<item historyLabel="FractalApplication.java" index="3">
-<position info="not_deleted" x="175" y="0"/>
-</item>
-<item historyLabel="RandomMountain.java" index="0">
-<position info="not_deleted" x="405" y="91"/>
-</item>
-<item historyLabel="Mountain.java" index="5">
-<position info="not_deleted" x="249" y="0"/>
-</item>
-<item historyLabel="Koch.java" index="7">
-<position info="not_deleted" x="616" y="0"/>
-</item>
-<item historyLabel="RandomMountain.java" index="0">
-<position info="not_deleted" x="405" y="91"/>
-</item>
-<item historyLabel="RandomMountain.java" index="0">
-<position info="not_deleted" x="165" y="0"/>
-</item>
-<item historyLabel="FractalApplication.java" index="3">
-<position info="not_deleted" x="175" y="0"/>
-</item>
-<item historyLabel="RandomMountain.java" index="0">
-<position info="not_deleted" x="311" y="0"/>
-</item>
-<item historyLabel="TurtleGraphics.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Koch.java" index="7">
-<position info="not_deleted" x="754" y="0"/>
-</item>
-<item historyLabel="RandomMountain.java" index="0">
-<position info="not_deleted" x="1143" y="0"/>
-</item>
-<item historyLabel="Mountain.java" index="5">
+<item historyLabel="Mountain.java" index="2">
 <position info="not_deleted" x="249" y="0"/>
 </item>
 <item historyLabel="RandomMountain.java" index="0">
 <position info="not_deleted" x="1586" y="0"/>
 </item>
-<item historyLabel="FractalApplication.java" index="3">
+<item historyLabel="FractalApplication.java" index="1">
 <position info="not_deleted" x="194" y="0"/>
 </item>
-<item historyLabel="Point.java" index="8">
+<item historyLabel="Point.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="FractalApplication.java" index="3">
+<item historyLabel="FractalApplication.java" index="1">
 <position info="not_deleted" x="194" y="0"/>
 </item>
 <item historyLabel="RandomMountain.java" index="0">
 <position info="not_deleted" x="1603" y="0"/>
 </item>
-<item historyLabel="BinarySearchTree.java" index="9">
+<item historyLabel="BinarySearchTree.java" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="BinarySearchTree.java" index="9">
+<item historyLabel="BinarySearchTree.java" index="4">
 <position/>
 </item>
-<item historyLabel="BinarySearchTree.java" index="9">
+<item historyLabel="BinarySearchTree.java" index="4">
 <position/>
 </item>
-<item historyLabel="BinarySearchTree.java" index="9">
+<item historyLabel="BinarySearchTree.java" index="4">
 <position info="not_deleted" x="542" y="0"/>
 </item>
-<item historyLabel="BinarySearchTree.java" index="9">
+<item historyLabel="BinarySearchTree.java" index="4">
 <position/>
 </item>
-<item historyLabel="BinarySearchTree.java" index="9">
+<item historyLabel="BinarySearchTree.java" index="4">
 <position info="not_deleted" x="700" y="0"/>
 </item>
-<item historyLabel="BinarySearchTree.java" index="9">
+<item historyLabel="BinarySearchTree.java" index="4">
 <position info="not_deleted" x="582" y="0"/>
 </item>
-<item historyLabel="BinarySearchTree.java" index="9">
+<item historyLabel="BinarySearchTree.java" index="4">
 <position info="not_deleted" x="588" y="0"/>
 </item>
-<item historyLabel="BinarySearchTree.java" index="9">
+<item historyLabel="BinarySearchTree.java" index="4">
 <position info="not_deleted" x="730" y="0"/>
 </item>
-<item historyLabel="BSTVisualizer.java" index="10">
+<item historyLabel="BSTVisualizer.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="BinarySearchTree.java" index="9">
+<item historyLabel="BinarySearchTree.java" index="4">
 <position info="not_deleted" x="730" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="36" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="120" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="130" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="185" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="208" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="251" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1447" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1514" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1867" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1907" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1929" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1941" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="2000" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="927" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1273" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1266" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1124" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1151" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1152" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1045" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1048" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1963" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="1968" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="269" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="272" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="277" y="0"/>
+</item>
+<item historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="300" y="0"/>
+</item>
+<item active="true" historyLabel="Sudoku.java" index="6">
+<position info="not_deleted" x="303" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -572,15 +558,8 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="right"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
-<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.ConsoleFolderView"/>
-<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.OutlineFolderView"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -589,11 +568,13 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sudoku.java" tooltip="sudoku/src/Sudoku.java">
+<persistable path="/sudoku/src/Sudoku.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BSTVisualizer.java" tooltip="lab4/src/bst/BSTVisualizer.java">
 <persistable path="/lab4/src/bst/BSTVisualizer.java"/>
 </file>
@@ -635,9 +616,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OrderDownButton.java" tooltip="lab3/src/fractal/OrderDownButton.java">
 <persistable path="/lab3/src/fractal/OrderDownButton.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OrderUpButton.java" tooltip="lab3/src/fractal/OrderUpButton.java">
-<persistable path="/lab3/src/fractal/OrderUpButton.java"/>
 </file>
 </mruList>
 </workbench>
