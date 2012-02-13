@@ -85,13 +85,13 @@ public class BinarySearchTree<E extends Comparable<? super E>> {
 	 * Print tree contents in inorder.
 	 */
 	public void printTree() {
-		printInorder(root);
+		
 	}
 	
 	private void printInorder(BinaryNode<E> n) {
 		if (n != null) {
-			printInorder(n.left);
 			System.out.println(n.element);
+			printInorder(n.left);
 			printInorder(n.right);
 		}
 	}

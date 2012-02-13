@@ -30,17 +30,27 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearchTree.java" partName="BinarySearchTree.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab4/src/bst/BinarySearchTree.java" title="BinarySearchTree.java" tooltip="lab4/src/bst/BinarySearchTree.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab4/src/bst/BinarySearchTree.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="415" selectionTopPixel="147"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1703" selectionTopPixel="1246"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sudoku.java" partName="Sudoku.java" path="/h/d5/d/dat11ael/devel/EDAA01/sudoku/src/Sudoku.java" title="Sudoku.java" tooltip="sudoku/src/Sudoku.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sudoku/src/Sudoku.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="597" selectionTopPixel="172"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestFifoQueue.java" partName="TestFifoQueue.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab2/src/testqueue/TestFifoQueue.java" title="TestFifoQueue.java" tooltip="lab2/src/testqueue/TestFifoQueue.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab2/src/testqueue/TestFifoQueue.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="332" selectionTopPixel="280"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestBST.java" partName="TestBST.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab4/src/test/TestBST.java" title="TestBST.java" tooltip="lab4/src/test/TestBST.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab4/src/test/TestBST.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="631" selectionTopPixel="108"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BSTVisualizer.java" partName="BSTVisualizer.java" path="/h/d5/d/dat11ael/devel/EDAA01/lab4/src/bst/BSTVisualizer.java" title="BSTVisualizer.java" tooltip="lab4/src/bst/BSTVisualizer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab4/src/bst/BSTVisualizer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -82,7 +92,6 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
@@ -341,7 +350,7 @@
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.jdt.junit.ResultView" appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="Hierarchy"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="JUnit"/>
@@ -394,163 +403,161 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/RandomMountain.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/fractal/FractalApplication.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/Mountain.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab3/src/mountain/Point.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab4/src/bst/BinarySearchTree.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab4/src/bst/BSTVisualizer.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/sudoku/src/Sudoku.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab4/src/bst/BinarySearchTree.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab2/src/testqueue/TestFifoQueue.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab4/src/test/TestBST.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab4/src/bst/BSTVisualizer.java"/>
 </editors>
-<item historyLabel="Mountain.java" index="2">
-<position info="not_deleted" x="249" y="0"/>
-</item>
-<item historyLabel="RandomMountain.java" index="0">
-<position info="not_deleted" x="1586" y="0"/>
-</item>
-<item historyLabel="FractalApplication.java" index="1">
-<position info="not_deleted" x="194" y="0"/>
-</item>
-<item historyLabel="Point.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="FractalApplication.java" index="1">
-<position info="not_deleted" x="194" y="0"/>
-</item>
-<item historyLabel="RandomMountain.java" index="0">
-<position info="not_deleted" x="1603" y="0"/>
-</item>
-<item historyLabel="BinarySearchTree.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="BinarySearchTree.java" index="4">
-<position/>
-</item>
-<item historyLabel="BinarySearchTree.java" index="4">
-<position/>
-</item>
-<item historyLabel="BinarySearchTree.java" index="4">
-<position info="not_deleted" x="542" y="0"/>
-</item>
-<item historyLabel="BinarySearchTree.java" index="4">
-<position/>
-</item>
-<item historyLabel="BinarySearchTree.java" index="4">
-<position info="not_deleted" x="700" y="0"/>
-</item>
-<item historyLabel="BinarySearchTree.java" index="4">
-<position info="not_deleted" x="582" y="0"/>
-</item>
-<item historyLabel="BinarySearchTree.java" index="4">
-<position info="not_deleted" x="588" y="0"/>
-</item>
-<item historyLabel="BinarySearchTree.java" index="4">
-<position info="not_deleted" x="730" y="0"/>
-</item>
-<item historyLabel="BSTVisualizer.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="BinarySearchTree.java" index="4">
-<position info="not_deleted" x="730" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="36" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="120" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="130" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="185" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="208" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="251" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="1447" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="1514" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="1867" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="1907" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="1929" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="1941" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="2000" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="927" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="1273" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="1266" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="1124" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="1151" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="1152" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="1045" y="0"/>
-</item>
-<item historyLabel="Sudoku.java" index="6">
+<item historyLabel="Sudoku.java" index="0">
 <position info="not_deleted" x="1048" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="6">
+<item historyLabel="Sudoku.java" index="0">
 <position info="not_deleted" x="1963" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="6">
+<item historyLabel="Sudoku.java" index="0">
 <position info="not_deleted" x="1968" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="6">
+<item historyLabel="Sudoku.java" index="0">
 <position info="not_deleted" x="269" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="6">
+<item historyLabel="Sudoku.java" index="0">
 <position info="not_deleted" x="272" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="6">
+<item historyLabel="Sudoku.java" index="0">
 <position info="not_deleted" x="277" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="6">
+<item historyLabel="Sudoku.java" index="0">
 <position info="not_deleted" x="300" y="0"/>
 </item>
-<item active="true" historyLabel="Sudoku.java" index="6">
-<position info="not_deleted" x="303" y="0"/>
+<item historyLabel="Sudoku.java" index="0">
+<position info="not_deleted" x="597" y="0"/>
+</item>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="1304" y="0"/>
+</item>
+<item historyLabel="TestFifoQueue.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestFifoQueue.java" index="2">
+<position info="not_deleted" x="20" y="106"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="150" y="0"/>
+</item>
+<item historyLabel="TestFifoQueue.java" index="2">
+<position info="not_deleted" x="20" y="106"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="634" y="0"/>
+</item>
+<item historyLabel="TestFifoQueue.java" index="2">
+<position info="not_deleted" x="334" y="234"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="634" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="150" y="0"/>
+</item>
+<item historyLabel="TestFifoQueue.java" index="2">
+<position info="not_deleted" x="332" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="150" y="0"/>
+</item>
+<item historyLabel="TestFifoQueue.java" index="2">
+<position info="not_deleted" x="332" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="150" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="631" y="0"/>
+</item>
+<item historyLabel="TestFifoQueue.java" index="2">
+<position info="not_deleted" x="332" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="631" y="0"/>
+</item>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="605" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="475" y="0"/>
+</item>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="43" y="1"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="475" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="513" y="0"/>
+</item>
+<item historyLabel="TestFifoQueue.java" index="2">
+<position info="not_deleted" x="332" y="0"/>
+</item>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="649" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="631" y="0"/>
+</item>
+<item historyLabel="TestFifoQueue.java" index="2">
+<position info="not_deleted" x="332" y="0"/>
+</item>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="649" y="0"/>
+</item>
+<item historyLabel="TestFifoQueue.java" index="2">
+<position info="not_deleted" x="332" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="631" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="589" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="603" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="458" y="0"/>
+</item>
+<item historyLabel="TestFifoQueue.java" index="2">
+<position info="not_deleted" x="332" y="0"/>
+</item>
+<item historyLabel="BSTVisualizer.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="631" y="0"/>
+</item>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="649" y="0"/>
+</item>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="1703" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="631" y="0"/>
+</item>
+<item historyLabel="TestFifoQueue.java" index="2">
+<position info="not_deleted" x="332" y="0"/>
+</item>
+<item historyLabel="BinarySearchTree.java" index="1">
+<position info="not_deleted" x="1703" y="0"/>
+</item>
+<item historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="631" y="0"/>
+</item>
+<item active="true" historyLabel="TestBST.java" index="3">
+<position info="not_deleted" x="629" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -558,6 +565,9 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="right"/>
 </trimArea>
@@ -568,15 +578,22 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sudoku.java" tooltip="sudoku/src/Sudoku.java">
-<persistable path="/sudoku/src/Sudoku.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BSTVisualizer.java" tooltip="lab4/src/bst/BSTVisualizer.java">
 <persistable path="/lab4/src/bst/BSTVisualizer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestBST.java" tooltip="lab4/src/test/TestBST.java">
+<persistable path="/lab4/src/test/TestBST.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestFifoQueue.java" tooltip="lab2/src/testqueue/TestFifoQueue.java">
+<persistable path="/lab2/src/testqueue/TestFifoQueue.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sudoku.java" tooltip="sudoku/src/Sudoku.java">
+<persistable path="/sudoku/src/Sudoku.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearchTree.java" tooltip="lab4/src/bst/BinarySearchTree.java">
 <persistable path="/lab4/src/bst/BinarySearchTree.java"/>
@@ -589,9 +606,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestAppendFifoQueue.java" tooltip="lab2/src/testqueue/TestAppendFifoQueue.java">
 <persistable path="/lab2/src/testqueue/TestAppendFifoQueue.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TestFifoQueue.java" tooltip="lab2/src/testqueue/TestFifoQueue.java">
-<persistable path="/lab2/src/testqueue/TestFifoQueue.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FifoQueue.java" tooltip="lab2/src/queue/FifoQueue.java">
 <persistable path="/lab2/src/queue/FifoQueue.java"/>
@@ -613,9 +627,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CommandPanel.java" tooltip="lab3/src/fractal/CommandPanel.java">
 <persistable path="/lab3/src/fractal/CommandPanel.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="OrderDownButton.java" tooltip="lab3/src/fractal/OrderDownButton.java">
-<persistable path="/lab3/src/fractal/OrderDownButton.java"/>
 </file>
 </mruList>
 </workbench>
