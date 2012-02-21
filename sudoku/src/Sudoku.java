@@ -11,9 +11,14 @@ public class Sudoku {
 	}
 	
 	private boolean solve(int y, int x) {
-		if (sudoku[y][x] > 0) {
+		if (sudoku[y][x] > 0) { // finns en siffra i (y, x)
 			int i = sudoku[y][x];
-			if (checkRow(y, i) && checkColumn(i, x) && checkRegion(y, x, i)) { // om i är giltigt i (y, x)
+			int temp = sudoku[y][x];
+			sudoku[y][x] = 0;
+			System.out.println(checkRow(y, i) + ", " + checkColumn(i, x) + ", " + checkRegion(y, x, i));
+			boolean noDuplicates = checkRow(y, i) && checkColumn(i, x) && checkRegion(y, x, i);
+			sudoku[y][x] = temp;
+			if (noDuplicates) { // om i är giltigt i (y, x)
 				// kör solve på nästa ruta
 				if (x == 8) {
 					if (solve(y+1, 0)) {
@@ -26,8 +31,8 @@ public class Sudoku {
 				}
 			}
 			return false;
-		} else {
-			if(y == 8 && x == 8 ) {
+		} else { // tomt i (y, x)
+			if(y == 8 && x == 8 ) { // sista rutan i sudokut
 				for (int i = 1; i <= 9; i++) {
 					if (checkRow(y, i) && checkColumn(i, x) && checkRegion(y, x, i)) { // om i är giltigt i (y, x)
 						sudoku[y][x] = i; // sätt in i
@@ -42,7 +47,7 @@ public class Sudoku {
 						sudoku[y][x] = i; // sätt in i
 						
 						// kör solve på nästa ruta
-						if (x == 8) {
+						if (x == 8) { // sista rutan i raden
 							if (solve(y+1, 0)) {
 								return true;
 							}
@@ -53,6 +58,7 @@ public class Sudoku {
 						}
 					}
 				}
+				sudoku[y][x] = 0;
 				return false;
 			}
 		}
@@ -90,5 +96,40 @@ public class Sudoku {
 			}
 		}
 		return noDuplicates;
+	}
+	
+	public static void main(String args[]) {
+//		int s[][] = {
+//			{0, 0, 8, 0, 0, 9, 0, 6, 2},
+//			{0, 0, 0, 0, 0, 0, 0, 0, 5},
+//			{1, 0, 2, 5, 0, 0, 0, 0, 0},
+//			{0, 0, 0, 2, 1, 0, 0, 9, 0},
+//			{0, 5, 0, 0, 0, 0, 6, 0, 0},
+//			{6, 0, 0, 0, 0, 0, 0, 2, 8},
+//			{4, 1, 0, 6, 0, 8, 0, 0, 0},
+//			{8, 6, 0, 0, 3, 0, 1, 0, 0},
+//			{0, 0, 0, 0, 0, 0, 4, 0, 0}
+//		};
+		int s[][] = {
+				{0, 0, 8, 0, 0, 9, 0, 6, 2},
+				{0, 0, 0, 0, 0, 0, 0, 0, 5},
+				{1, 0, 2, 5, 0, 0, 0, 0, 0},
+				{0, 0, 0, 2, 1, 0, 0, 9, 0},
+				{0, 5, 0, 0, 0, 0, 6, 0, 0},
+				{6, 0, 0, 0, 0, 0, 0, 2, 8},
+				{4, 1, 0, 6, 0, 8, 0, 0, 0},
+				{8, 6, 0, 0, 3, 0, 1, 0, 0},
+				{0, 0, 0, 0, 0, 0, 4, 0, 0}
+			};
+		
+		Sudoku sudoku = new Sudoku(s);
+		System.out.println(sudoku.solve());
+		
+		for (int y = 0; y < 9; y++) {
+			for (int x = 0; x < 9; x++) {
+				System.out.print(s[y][x] + " ");
+			}
+			System.out.println();
+		}
 	}
 }

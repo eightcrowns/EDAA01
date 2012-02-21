@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 1 elements(s) to &apos;experiment/src/components&apos;&#x0A;- Original project: &apos;experiment&apos;&#x0A;- Destination element: &apos;experiment/src/components&apos;&#x0A;- Original element: &apos;FormattedTextFieldDemo.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;components" element1="/src&lt;{FormattedTextFieldDemo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1329388050091" units="1" version="1.0"/>
+</session>

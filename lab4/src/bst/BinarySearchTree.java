@@ -100,7 +100,10 @@ public class BinarySearchTree<E extends Comparable<? super E>> {
 	 * Builds a complete tree from the elements in the tree.
 	 */
 	public void rebuild() {
-
+		E[] array = (E[]) new Comparable[size()];
+		int last = toArray(root, array, 0);
+		
+		root = buildTree(array, 0, last - 1);
 	}
 	
 	/*
@@ -109,8 +112,14 @@ public class BinarySearchTree<E extends Comparable<? super E>> {
 	 * Returns the index of the last inserted element + 1 (the first empty
 	 * position in a).
 	 */
-	private int toArray(BinaryNode<E> n, E[] a, int index) {
-		return 0;
+	public int toArray(BinaryNode<E> n, E[] a, int index) {
+		if (n == null) {
+			return index;
+		} else {
+			int pos = toArray(n.left, a, index);
+			a[pos] = n.element;
+			return toArray(n.right, a, pos + 1);
+		}
 	}
 	
 	/*
@@ -119,11 +128,17 @@ public class BinarySearchTree<E extends Comparable<? super E>> {
 	 * Returns the root of tree.
 	 */
 	private BinaryNode<E> buildTree(E[] a, int first, int last) {
-		return null;
+		if (first > last) {
+			return null;
+		} else {
+			int mid = (last + first) / 2;
+			BinaryNode<E> node = new BinaryNode<E>(a[mid]);
+			node.left = buildTree(a, first, mid-1);
+			node.right = buildTree(a, mid+1, last);
+			return node;
+		}		
 	}
 	
-
-
 	static class BinaryNode<E> {
 		E element;
 		BinaryNode<E> left;
@@ -134,4 +149,31 @@ public class BinarySearchTree<E extends Comparable<? super E>> {
 		}	
 	}
 	
+	public static void main(String args[]) {
+		BinarySearchTree<Integer> tree = new BinarySearchTree<Integer>();
+		BSTVisualizer bst = new BSTVisualizer("BSTVisualizer", 600, 600);
+		
+		tree.add(4);
+		tree.add(2);
+		tree.add(1);
+		tree.add(3);
+		tree.add(6);
+		tree.add(4);
+		tree.add(2);
+		tree.add(7);
+		tree.add(5);
+		
+		//bst.drawTree(tree);
+		
+//		Integer[] array = new Integer[tree.size()];
+//		System.out.println(tree.toArray(tree.root, array, 0));
+//		for (Integer i : array) {
+//			System.out.print(i + " ");
+//		}
+		
+//		tree.root = tree.buildTree(array, 0, array.length - 1);
+		tree.rebuild();
+		
+		bst.drawTree(tree);
+	}
 }

@@ -1,3 +1,4 @@
-#Wed Aug 12 14:44:51 CEST 2009
+#Thu Feb 16 10:32:43 CET 2012
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n<expression enabled\="true" text\="sudoku"/>\n</watchExpressions>\n
 eclipse.preferences.version=1
 org.eclipse.debug.core.USE_STEP_FILTERS=true
