@@ -1,5 +1,7 @@
 package map;
 
+import java.util.Random;
+
 public class SimpleHashMap<K, V> implements Map<K, V> {
 	private Entry<K, V>[] entries;
 	
@@ -11,9 +13,12 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 		entries = new Entry[capacity];
 	}
 	
-	@Override
 	public V get(Object arg0) {
-		// TODO Auto-generated method stub
+		K key = (K) arg0;
+		Entry<K, V> entry = find(index(key), key);
+		if (entry != null) {
+			return entry.getValue();
+		}
 		return null;
 	}
 	
@@ -21,16 +26,47 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 		return size() == 0;
 	}
 	
-	@Override
-	public V put(K arg0, V arg1) {
-		// TODO Auto-generated method stub
-		return null;
+	public V put(K key, V value) {
+		int index = index(key);
+		Entry<K, V> previous = find(index, key);
+		if (previous == null) {
+			Entry<K, V> oldEntry = entries[index];
+			entries[index] = new Entry<K, V>(key, value);
+			entries[index].next = oldEntry;
+			
+			if ((double)size() / entries.length > 0.75) {
+				rehash();
+			}
+			return null;
+		} else {
+			V oldValue = previous.getValue();
+			previous.setValue(value);
+			return oldValue;
+		}
 	}
 	
-	@Override
 	public V remove(Object arg0) {
-		// TODO Auto-generated method stub
-		return null;
+		K key = (K) arg0;
+		int index = index(key);
+		if (entries[index] == null) { // listan är tom
+			return null;
+		} else {
+			Entry<K, V> node = entries[index], previousNode = null;
+			while (node != null && !key.equals(node.getKey())) {
+				previousNode = node;
+				node = node.next;
+			}
+			
+			if (node == entries[index]) { // key är första elementet i listan
+				entries[index] = entries[index].next;
+				return node.getValue();
+			} else if (node != null) { // key finns senare i listan
+				previousNode.next = node.next;
+				return node.getValue();
+			} else { // key finns inte i listan
+				return null;
+			}
+		}
 	}
 	
 	public int size() {
@@ -58,17 +94,16 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 				sb.append(node);
 				if (node.next != null) {
 					sb.append(" ");
-				} else {
-					sb.append("\n");
 				}
 				node = node.next;
 			}
+			sb.append("\n");
 		}
 		return sb.toString();
 	}
 	
 	private int index(K key) {
-		return key.hashCode() % entries.length;
+		return Math.abs(key.hashCode() % entries.length);
 	}
 	
 	private Entry<K, V> find(int index, K key) {
@@ -77,6 +112,19 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 			node = node.next;
 		}
 		return node;
+	}
+	
+	private void rehash() {
+		Entry<K, V>[] oldEntries = entries;
+		entries = new Entry[oldEntries.length * 2];
+		
+		for (int i = 0; i < oldEntries.length; i++) {
+			Entry<K, V> node = oldEntries[i];
+			while (node != null) {
+				put(node.getKey(), node.getValue());
+				node = node.next;
+			}
+		}
 	}
 	
 	private static class Entry<K, V> implements Map.Entry<K, V> {
@@ -107,4 +155,14 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
 			return key + "=" + value;
 		}
 	}
+	/*
+	public static void main(String[] args) {
+		SimpleHashMap<Integer, Integer> shm = new SimpleHashMap<Integer, Integer>(10);
+		for (int i = 0; i < 80; i++) {
+			Random rand = new Random();
+			int random = rand.nextInt(100);
+			shm.put(random, random);
+		}
+		System.out.println(shm.show());
+	}*/
 }
