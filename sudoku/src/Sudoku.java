@@ -19,16 +19,18 @@ public class Sudoku {
 			boolean noDuplicates = checkRow(y, i) && checkColumn(i, x) && checkRegion(y, x, i);
 			sudoku[y][x] = temp;
 			if (noDuplicates) { // om i är giltigt i (y, x)
-				// kör solve på nästa ruta
-				if (x == 8) {
-					if (solve(y+1, 0)) {
-						return true;
+				if(y == 8 && x == 8 ) { // sista rutan i sudokut
+					return true;
+				} else // kör solve på nästa ruta
+					if (x == 8) {
+						if (solve(y+1, 0)) {
+							return true;
+						}
+					} else {
+						if (solve(y, x+1)) {
+							return true;
+						}
 					}
-				} else {
-					if (solve(y, x+1)) {
-						return true;
-					}
-				}
 			}
 			return false;
 		} else { // tomt i (y, x)
@@ -96,6 +98,10 @@ public class Sudoku {
 			}
 		}
 		return noDuplicates;
+	}
+	
+	public int[][] getValues() {
+		return sudoku;
 	}
 	
 	public static void main(String args[]) {

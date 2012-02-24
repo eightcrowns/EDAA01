@@ -1,0 +1,6 @@
+import javax.swing.JLabel;
+
+
+public class StatusLabel extends JLabel {
+	
+}

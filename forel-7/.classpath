@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="a-minimal-example"/>
+	<classpathentry kind="src" path="button-with-listener"/>
+	<classpathentry kind="src" path="dialog-box"/>
+	<classpathentry kind="src" path="graphic-small-example"/>
+	<classpathentry kind="src" path="graphic-with-circles"/>
+	<classpathentry kind="src" path="layout-examples"/>
+	<classpathentry kind="src" path="many-listeners-extra-example"/>
+	<classpathentry kind="src" path="many-listeners-inner-classes"/>
+	<classpathentry kind="src" path="many-listeners-model-view"/>
+	<classpathentry kind="src" path="picture-example"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

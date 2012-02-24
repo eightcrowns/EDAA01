@@ -1,0 +1,17 @@
+import java.awt.event.ActionEvent;
+
+
+public class NewButton implements ActionListener {
+	private Sudoku sudoku;
+	
+	public NewButton(Sudoku sudoku) {
+		super("New");
+		this.sudoku = sudoku;
+		addActionListener(this);
+	}
+	
+	public void actionPerformed(ActionEvent e) {
+		counters.incrementNoCount();
+		view.updateNoLabel();
+	}
+}
