@@ -1,5 +1,6 @@
 package phonebook;
 import javax.swing.*;
+
 import java.awt.event.*;
 
 public class RemoveMenu extends JMenuItem implements ActionListener {
@@ -14,6 +15,10 @@ public class RemoveMenu extends JMenuItem implements ActionListener {
 	}
 	
 	 public void actionPerformed(ActionEvent e) {
-		
+		 String name = JOptionPane.showInputDialog("Enter name");
+			if (name != null && !name.isEmpty()) {
+				phoneBook.remove(name);
+				gui.addMessage(name + " togs bort från telefonboken");
+			}
 	 }
 }

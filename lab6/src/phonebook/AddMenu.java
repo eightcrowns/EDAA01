@@ -14,7 +14,14 @@ public class AddMenu extends JMenuItem implements ActionListener {
 		addActionListener(this);
 	}
 	
-	 public void actionPerformed(ActionEvent e) {
-		
-	 }
+	public void actionPerformed(ActionEvent e) {
+		String name = JOptionPane.showInputDialog("Enter name");
+		if (name != null && !name.isEmpty()) {
+			String number = JOptionPane.showInputDialog("Enter number");
+			if (number != null && !number.isEmpty()) {
+				phoneBook.put(name, number);
+				gui.addMessage(name + " lades till med nummer: " + number);
+			}
+		}
+	}
 }

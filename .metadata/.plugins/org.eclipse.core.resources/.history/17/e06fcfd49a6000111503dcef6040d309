@@ -1,0 +1,53 @@
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.GridLayout;
+
+import javax.swing.*;
+
+public class SudokuGUI {
+	public SudokuGUI() {
+		int[][] values = new int[9][9];
+		
+		JFrame frame = new JFrame("Sudoku");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		JPanel sudokuPanel = new JPanel();
+		sudokuPanel.setLayout(new GridLayout(9, 9));
+		JTextField fields[][] = new JTextField[9][9];
+		for (int y = 0; y < 9; y++) {
+			for (int x = 0; x < 9; x++) {
+				fields[y][x] = new JTextField(1);
+				fields[y][x].setEditable(false);
+				if (y < 3 && x < 3 || y < 3 && x >= 6 || y >= 3 && y < 6 && x >= 3 && x < 6 || y >= 6 && x < 3 || y >= 6 && x >= 6) {
+					fields[y][x].setBackground(java.awt.Color.PINK);
+				}
+				
+				sudokuPanel.add(fields[y][x]);
+			}
+		}
+		frame.add(sudokuPanel, BorderLayout.CENTER);
+		
+		JLabel statusLabel = new JLabel();
+		statusLabel.setPreferredSize(new Dimension(130, 20));
+		
+		JPanel buttonPanel = new JPanel();
+		NewButton newButton = new NewButton(values, fields, statusLabel);
+		buttonPanel.add(newButton);
+		ClearButton clearButton = new ClearButton(values, fields, statusLabel);
+		buttonPanel.add(clearButton);
+		CheckButton checkButton = new CheckButton(values, fields, statusLabel);
+		buttonPanel.add(checkButton);
+		SolveButton solveButton = new SolveButton(values, fields, statusLabel);
+		buttonPanel.add(solveButton);
+		
+		buttonPanel.add(statusLabel);
+		frame.add(buttonPanel, BorderLayout.SOUTH);
+		
+		frame.pack();
+		frame.setVisible(true);
+	}
+
+	public static void main(String[] args) {
+		new SudokuGUI();
+	}
+}

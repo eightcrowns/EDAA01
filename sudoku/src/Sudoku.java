@@ -100,8 +100,17 @@ public class Sudoku {
 		return noDuplicates;
 	}
 	
-	public int[][] getValues() {
-		return sudoku;
+	public boolean check(int y, int x) {
+		int num = sudoku[y][x];
+		sudoku[y][x] = 0;
+		
+		if (checkRow(y, num) && checkColumn(num, x) && checkRegion(y, x, num)) {
+			sudoku[y][x] = num;
+			return true;
+		} else {
+			sudoku[y][x] = num;
+			return false;
+		}
 	}
 	
 	public static void main(String args[]) {

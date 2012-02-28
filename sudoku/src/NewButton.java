@@ -6,17 +6,11 @@ import java.util.Scanner;
 import javax.swing.*;
 
 
-public class NewButton extends JButton implements ActionListener {
-	//private Sudoku sudoku;
-	private int[][] values;
+public class NewButton extends SudokuButton {
 	private Scanner scanner;
-	private JTextField[][] fields;
 	
-	public NewButton(int[][] values, JTextField[][] fields) {
-		super("New");
-		this.values = values;
-		this.fields = fields;
-		addActionListener(this);
+	public NewButton(int[][] values, JTextField[][] fields, JLabel statusLabel) {
+		super(values, fields, statusLabel, "New");
 		
 		try {
 			scanner = new Scanner(new File("sudokus"));
@@ -27,7 +21,6 @@ public class NewButton extends JButton implements ActionListener {
 	}
 	
 	public void actionPerformed(ActionEvent e) {
-		//int[][] s = new int[9][9];
 		int y = 0;
 		while (scanner.hasNext() && y < 9) {
 			String line = scanner.nextLine();
@@ -55,7 +48,6 @@ public class NewButton extends JButton implements ActionListener {
 				System.exit(1);
 			}
 		}
-		
-		//sudoku = new Sudoku(s);
+		statusLabel.setText("");
 	}
 }

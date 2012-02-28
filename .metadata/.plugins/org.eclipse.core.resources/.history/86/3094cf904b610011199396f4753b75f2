@@ -1,0 +1,26 @@
+package phonebook;
+import javax.swing.*;
+
+import java.awt.event.*;
+
+@SuppressWarnings("serial")
+public class FindNamesMenu extends JMenuItem implements ActionListener {
+	private PhoneBook phoneBook;
+	private PhoneBookGUI gui;
+	
+	public FindNamesMenu(PhoneBook phoneBook, PhoneBookGUI gui) {
+		super("Find name(s)");
+		this.phoneBook = phoneBook;
+		this.gui = gui;
+		addActionListener(this);
+	}
+	
+	public void actionPerformed(ActionEvent e) {
+		String number = JOptionPane.showInputDialog("Enter number");
+		if (number != null && !number.isEmpty()) {
+			gui.addMessage(number + " tillhör följande personer: " + phoneBook.findNames(number).toString());
+		} else {
+			gui.addMessage(number + " finns inte i telefonboken.");
+		}
+	}
+}

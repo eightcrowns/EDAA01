@@ -1,6 +1,8 @@
 package phonebook;
 import javax.swing.*;
+
 import java.awt.*;
+import java.io.*;
 import java.util.*;
 
 public class PhoneBookGUI extends JFrame {
@@ -22,8 +24,16 @@ public class PhoneBookGUI extends JFrame {
 		setJMenuBar(menubar);
 		JMenu editMenu = new JMenu("Edit");
 		menubar.add(editMenu);
+		JMenu findMenu = new JMenu("Find");
+		menubar.add(findMenu);
+		JMenu viewMenu = new JMenu("View");
+		menubar.add(viewMenu);
 		editMenu.add(new AddMenu(phoneBook,this));
 		editMenu.add(new RemoveMenu(phoneBook,this));
+		findMenu.add(new FindNumbersMenu(phoneBook,this));
+		findMenu.add(new FindNamesMenu(phoneBook,this));
+		viewMenu.add(new ShowAllMenu(phoneBook,this));
+		
 			
 		
 		JPanel southPanel = new JPanel();
@@ -35,5 +45,10 @@ public class PhoneBookGUI extends JFrame {
 		
 		pack();
 		setVisible(true);
+	}
+	
+	public void addMessage(String message) {
+		messageArea.append(message);
+		messageArea.append("\n");
 	}
 }

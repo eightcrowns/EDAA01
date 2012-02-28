@@ -1,11 +1,12 @@
 package phonebook;
+import java.io.Serializable;
 import java.util.*;
 
-public class PhoneBook {
+public class PhoneBook implements Serializable {
 	private Map<String,LinkedList<String>> phoneBook;
 	
 	public PhoneBook() {
-		
+		phoneBook = new TreeMap<String, LinkedList<String>>();
 	}
 	
 	
@@ -20,7 +21,14 @@ public class PhoneBook {
 	 * @param number The number associated with the specified name
 	 */
 	public void put(String name, String number) {
-		
+		LinkedList<String> numberList = phoneBook.get(name);
+		if (numberList != null) {
+			numberList.addFirst(number);
+		} else {
+			numberList = new LinkedList<String>();
+			numberList.addFirst(number);
+			phoneBook.put(name, numberList);
+		}
 	}
 	
 	
@@ -33,7 +41,7 @@ public class PhoneBook {
 	 * @return true if the specified name was present.
 	 */
 	public boolean remove(String name) {
-		return false;
+		return phoneBook.remove(name) != null;
 	}
 	
 	/**
@@ -44,7 +52,12 @@ public class PhoneBook {
 	 * @return The phone numbers associated with the specified name
 	 */
 	public List<String> findNumber(String name) {
-		return null;
+		List<String> numbers = phoneBook.get(name);
+		if (numbers != null) {
+			return numbers;
+		} else {
+			return new LinkedList<String>();
+		}
 	}
 	
 	/**
@@ -56,7 +69,20 @@ public class PhoneBook {
 	 * @return The list of names associated with the specified number.
 	 */
 	public List<String> findNames(String number) {
-		return null;
+		LinkedList<String> names = new LinkedList<String>();
+		
+		for (Map.Entry<String, LinkedList<String>> e : phoneBook.entrySet()) {
+			LinkedList<String> numbers = e.getValue();
+			Iterator<String> it = numbers.iterator();
+			boolean found = false;
+			while (it.hasNext() && !found) {
+				if(it.next().equals(number)) {
+					names.addFirst(e.getKey());
+					found = true;
+				}
+			}
+		}
+		return names;
 	}
 	
 	/**
@@ -65,7 +91,7 @@ public class PhoneBook {
 	 * @return The set of all names present in this phone book
 	 */
 	public Set<String> names() {
-		return null;
+		return phoneBook.keySet();
 	}
 	
 	/**
@@ -73,7 +99,7 @@ public class PhoneBook {
 	 * @return true if this phone book is empty
 	 */	
 	public boolean isEmpty() {
-		return true;
+		return phoneBook.isEmpty();
 	}
 	
 	/**
@@ -81,7 +107,7 @@ public class PhoneBook {
 	 * @return The number of names in this phone book
 	 */
 	public int size() {
-		return 0;
+		return phoneBook.size();
 	}
 
 }

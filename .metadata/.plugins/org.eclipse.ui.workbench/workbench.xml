@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="21" version="2.0">
 <workbenchAdvisor/>
 <window height="938" maximized="true" width="1072" x="63" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -8,14 +8,14 @@
 </perspectiveBar>
 <coolbarLayout locked="0">
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="104" y="30"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="98" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
-<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="104" y="30"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="75" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="108" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="183" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
@@ -38,55 +38,45 @@
 <part id="6"/>
 <part id="7"/>
 <part id="8"/>
-<part id="9"/>
-<part id="10"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sudoku.java" partName="Sudoku.java" path="/h/d5/d/dat11ael/devel/EDAA01/sudoku/src/Sudoku.java" title="Sudoku.java" tooltip="sudoku/src/Sudoku.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sudoku/src/Sudoku.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="308" selectionTopPixel="61"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="H:/devel/EDAA01/lab6/src/phonebook/Main.java" title="Main.java" tooltip="lab6/src/phonebook/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab6/src/phonebook/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="973" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SudokuGUI.java" partName="SudokuGUI.java" path="/h/d5/d/dat11ael/devel/EDAA01/sudoku/src/SudokuGUI.java" title="SudokuGUI.java" tooltip="sudoku/src/SudokuGUI.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sudoku/src/SudokuGUI.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="766" selectionTopPixel="134"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PhoneBook.java" partName="PhoneBook.java" path="H:/devel/EDAA01/lab6/src/phonebook/PhoneBook.java" title="PhoneBook.java" tooltip="lab6/src/phonebook/PhoneBook.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab6/src/phonebook/PhoneBook.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="170" selectionTopPixel="17"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SquareRoot.java" partName="SquareRoot.java" path="/h/d5/d/dat11ael/devel/EDAA01/forel-7/dialog-box/SquareRoot.java" title="SquareRoot.java" tooltip="forel-7/dialog-box/SquareRoot.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/forel-7/dialog-box/SquareRoot.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PhoneBookGUI.java" partName="PhoneBookGUI.java" path="H:/devel/EDAA01/lab6/src/phonebook/PhoneBookGUI.java" title="PhoneBookGUI.java" tooltip="lab6/src/phonebook/PhoneBookGUI.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab6/src/phonebook/PhoneBookGUI.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1332" selectionTopPixel="389"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GUI.java" partName="GUI.java" path="/h/d5/d/dat11ael/devel/EDAA01/forel-7/graphic-with-circles/GUI.java" title="GUI.java" tooltip="forel-7/graphic-with-circles/GUI.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/forel-7/graphic-with-circles/GUI.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FindNumbersMenu.java" partName="FindNumbersMenu.java" path="H:/devel/EDAA01/lab6/src/phonebook/FindNumbersMenu.java" title="FindNumbersMenu.java" tooltip="lab6/src/phonebook/FindNumbersMenu.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab6/src/phonebook/FindNumbersMenu.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="90" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FrameWithPanels.java" partName="FrameWithPanels.java" path="/h/d5/d/dat11ael/devel/EDAA01/forel-7/layout-examples/FrameWithPanels.java" title="FrameWithPanels.java" tooltip="forel-7/layout-examples/FrameWithPanels.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/forel-7/layout-examples/FrameWithPanels.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FindNamesMenu.java" partName="FindNamesMenu.java" path="H:/devel/EDAA01/lab6/src/phonebook/FindNamesMenu.java" title="FindNamesMenu.java" tooltip="lab6/src/phonebook/FindNamesMenu.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab6/src/phonebook/FindNamesMenu.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="816" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Counters.java" partName="Counters.java" path="/h/d5/d/dat11ael/devel/EDAA01/forel-7/many-listeners-model-view/Counters.java" title="Counters.java" tooltip="forel-7/many-listeners-model-view/Counters.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/forel-7/many-listeners-model-view/Counters.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AddMenu.java" partName="AddMenu.java" path="H:/devel/EDAA01/lab6/src/phonebook/AddMenu.java" title="AddMenu.java" tooltip="lab6/src/phonebook/AddMenu.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab6/src/phonebook/AddMenu.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="454" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CountersView.java" partName="CountersView.java" path="/h/d5/d/dat11ael/devel/EDAA01/forel-7/many-listeners-model-view/CountersView.java" title="CountersView.java" tooltip="forel-7/many-listeners-model-view/CountersView.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/forel-7/many-listeners-model-view/CountersView.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="463" selectionTopPixel="57"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShowAllMenu.java" partName="ShowAllMenu.java" path="H:/devel/EDAA01/lab6/src/phonebook/ShowAllMenu.java" title="ShowAllMenu.java" tooltip="lab6/src/phonebook/ShowAllMenu.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab6/src/phonebook/ShowAllMenu.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="469" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/h/d5/d/dat11ael/devel/EDAA01/forel-7/many-listeners-model-view/Main.java" title="Main.java" tooltip="forel-7/many-listeners-model-view/Main.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/forel-7/many-listeners-model-view/Main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="129" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuitButton.java" partName="QuitButton.java" path="H:/devel/EDAA01/lab6/src/phonebook/QuitButton.java" title="QuitButton.java" tooltip="lab6/src/phonebook/QuitButton.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab6/src/phonebook/QuitButton.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="527" selectionOffset="418" selectionTopPixel="151"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewButton.java" partName="NewButton.java" path="/h/d5/d/dat11ael/devel/EDAA01/sudoku/src/NewButton.java" title="NewButton.java" tooltip="sudoku/src/NewButton.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sudoku/src/NewButton.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1523" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClearButton.java" partName="ClearButton.java" path="/h/d5/d/dat11ael/devel/EDAA01/sudoku/src/ClearButton.java" title="ClearButton.java" tooltip="sudoku/src/ClearButton.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sudoku/src/ClearButton.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="445" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SolveButton.java" partName="SolveButton.java" path="/h/d5/d/dat11ael/devel/EDAA01/sudoku/src/SolveButton.java" title="SolveButton.java" tooltip="sudoku/src/SolveButton.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/sudoku/src/SolveButton.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1257" selectionTopPixel="363"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleHashMap.java" partName="SimpleHashMap.java" path="H:/devel/EDAA01/lab5/src/map/SimpleHashMap.java" title="SimpleHashMap.java" tooltip="lab5/src/map/SimpleHashMap.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/lab5/src/map/SimpleHashMap.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2752" selectionTopPixel="1734"/>
 </editor>
 </editors>
 <views>
@@ -134,10 +124,10 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors"/>
 <category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="73" org.eclipse.ui.ide.markerType="859" org.eclipse.ui.ide.pathField="143" org.eclipse.ui.ide.resourceField="108" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -453,161 +443,164 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/sudoku/src/NewButton.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/sudoku/src/SudokuGUI.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/sudoku/src/SolveButton.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/sudoku/src/Sudoku.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/sudoku/src/ClearButton.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab6/src/phonebook/PhoneBook.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab6/src/phonebook/PhoneBookGUI.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab6/src/phonebook/AddMenu.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab6/src/phonebook/FindNumbersMenu.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab6/src/phonebook/FindNamesMenu.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab6/src/phonebook/QuitButton.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab6/src/phonebook/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/lab5/src/map/SimpleHashMap.java"/>
 </editors>
-<item historyLabel="SudokuGUI.java" index="1">
-<position info="not_deleted" x="181" y="0"/>
+<item historyLabel="FindNamesMenu.java" index="4">
+<position info="not_deleted" x="816" y="0"/>
 </item>
-<item historyLabel="SudokuGUI.java" index="1">
-<position info="not_deleted" x="183" y="0"/>
+<item historyLabel="AddMenu.java" index="2">
+<position info="not_deleted" x="738" y="0"/>
 </item>
-<item historyLabel="SudokuGUI.java" index="1">
-<position info="not_deleted" x="203" y="0"/>
+<item historyLabel="QuitButton.java" index="5">
+<position/>
 </item>
-<item historyLabel="SudokuGUI.java" index="1">
-<position info="not_deleted" x="854" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position info="not_deleted" x="1332" y="0"/>
 </item>
-<item historyLabel="NewButton.java" index="0">
-<position info="not_deleted" x="724" y="0"/>
+<item historyLabel="QuitButton.java" index="5">
+<position/>
 </item>
-<item historyLabel="Sudoku.java" index="3">
-<position info="not_deleted" x="2572" y="0"/>
+<item historyLabel="QuitButton.java" index="5">
+<position/>
 </item>
-<item historyLabel="NewButton.java" index="0">
-<position info="not_deleted" x="724" y="0"/>
+<item historyLabel="QuitButton.java" index="5">
+<position/>
 </item>
-<item historyLabel="NewButton.java" index="0">
-<position info="not_deleted" x="248" y="0"/>
+<item historyLabel="QuitButton.java" index="5">
+<position/>
 </item>
-<item historyLabel="NewButton.java" index="0">
-<position info="not_deleted" x="250" y="0"/>
+<item historyLabel="QuitButton.java" index="5">
+<position/>
 </item>
-<item historyLabel="NewButton.java" index="0">
-<position info="not_deleted" x="342" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position info="not_deleted" x="1332" y="0"/>
 </item>
-<item historyLabel="NewButton.java" index="0">
-<position info="not_deleted" x="1523" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position/>
 </item>
-<item historyLabel="SudokuGUI.java" index="1">
-<position info="not_deleted" x="1111" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="1176" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="206" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position info="not_deleted" x="1332" y="0"/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="208" y="0"/>
+<item historyLabel="QuitButton.java" index="5">
+<position info="not_deleted" x="948" y="0"/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="305" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position info="not_deleted" x="1332" y="0"/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="307" y="0"/>
+<item historyLabel="QuitButton.java" index="5">
+<position/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="1061" y="0"/>
+<item historyLabel="AddMenu.java" index="2">
+<position info="not_deleted" x="454" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="3">
-<position info="not_deleted" x="2572" y="0"/>
+<item historyLabel="QuitButton.java" index="5">
+<position/>
 </item>
-<item historyLabel="SudokuGUI.java" index="1">
-<position info="not_deleted" x="864" y="0"/>
+<item historyLabel="FindNumbersMenu.java" index="3">
+<position info="not_deleted" x="487" y="42"/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="992" y="0"/>
+<item historyLabel="QuitButton.java" index="5">
+<position/>
 </item>
-<item historyLabel="Sudoku.java" index="3">
-<position info="not_deleted" x="2572" y="0"/>
+<item historyLabel="QuitButton.java" index="5">
+<position info="not_deleted" x="945" y="0"/>
 </item>
-<item historyLabel="SudokuGUI.java" index="1">
-<position info="not_deleted" x="864" y="0"/>
+<item historyLabel="QuitButton.java" index="5">
+<position info="not_deleted" x="514" y="0"/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="1025" y="24"/>
+<item historyLabel="QuitButton.java" index="5">
+<position info="not_deleted" x="898" y="0"/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="914" y="0"/>
+<item historyLabel="QuitButton.java" index="5">
+<position info="not_deleted" x="941" y="0"/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="917" y="0"/>
+<item historyLabel="PhoneBook.java" index="0">
+<position info="not_deleted" x="2250" y="0"/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="923" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="924" y="0"/>
+<item historyLabel="QuitButton.java" index="5">
+<position info="not_deleted" x="418" y="527"/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="905" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position info="not_deleted" x="1727" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="3">
-<position info="not_deleted" x="2572" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position/>
 </item>
-<item historyLabel="SudokuGUI.java" index="1">
-<position info="not_deleted" x="1134" y="0"/>
+<item historyLabel="PhoneBook.java" index="0">
+<position info="not_deleted" x="116" y="0"/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="998" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position/>
 </item>
-<item historyLabel="SudokuGUI.java" index="1">
-<position info="not_deleted" x="1109" y="0"/>
+<item historyLabel="FindNumbersMenu.java" index="3">
+<position info="not_deleted" x="90" y="0"/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="990" y="6"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position/>
 </item>
-<item historyLabel="Sudoku.java" index="3">
-<position info="not_deleted" x="2572" y="0"/>
+<item historyLabel="PhoneBook.java" index="0">
+<position info="not_deleted" x="116" y="0"/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="998" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position/>
 </item>
-<item historyLabel="Sudoku.java" index="3">
-<position info="not_deleted" x="280" y="0"/>
+<item historyLabel="PhoneBook.java" index="0">
+<position info="not_deleted" x="116" y="0"/>
 </item>
-<item historyLabel="SudokuGUI.java" index="1">
-<position info="not_deleted" x="1109" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position/>
 </item>
-<item historyLabel="Sudoku.java" index="3">
-<position info="not_deleted" x="280" y="0"/>
+<item historyLabel="Main.java" index="6">
+<position info="not_deleted" x="977" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="3">
-<position info="not_deleted" x="795" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position/>
 </item>
-<item historyLabel="Sudoku.java" index="3">
-<position info="not_deleted" x="850" y="0"/>
+<item historyLabel="Main.java" index="6">
+<position/>
 </item>
-<item historyLabel="SudokuGUI.java" index="1">
-<position info="not_deleted" x="1109" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position info="not_deleted" x="1332" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="3">
-<position info="not_deleted" x="308" y="0"/>
+<item historyLabel="Main.java" index="6">
+<position info="not_deleted" x="605" y="0"/>
 </item>
-<item historyLabel="SudokuGUI.java" index="1">
-<position info="not_deleted" x="1109" y="0"/>
+<item historyLabel="SimpleHashMap.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="1257" y="0"/>
+<item historyLabel="Main.java" index="6">
+<position info="not_deleted" x="605" y="0"/>
 </item>
-<item historyLabel="Sudoku.java" index="3">
-<position info="not_deleted" x="308" y="0"/>
+<item historyLabel="Main.java" index="6">
+<position info="not_deleted" x="603" y="0"/>
 </item>
-<item historyLabel="SudokuGUI.java" index="1">
-<position info="not_deleted" x="1109" y="0"/>
+<item historyLabel="Main.java" index="6">
+<position info="not_deleted" x="973" y="0"/>
 </item>
-<item historyLabel="SudokuGUI.java" index="1">
-<position info="not_deleted" x="766" y="0"/>
+<item historyLabel="SimpleHashMap.java" index="7">
+<position info="not_deleted" x="2752" y="0"/>
 </item>
-<item historyLabel="SolveButton.java" index="2">
-<position info="not_deleted" x="1257" y="0"/>
+<item historyLabel="PhoneBookGUI.java" index="1">
+<position info="not_deleted" x="1332" y="0"/>
 </item>
-<item active="true" historyLabel="ClearButton.java" index="4">
-<position info="not_deleted" x="445" y="0"/>
+<item active="true" historyLabel="PhoneBook.java" index="0">
+<position info="not_deleted" x="116" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -615,6 +608,9 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="right"/>
 </trimArea>
@@ -625,54 +621,55 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StatusLabel.java" tooltip="sudoku/src/StatusLabel.java">
-<persistable path="/sudoku/src/StatusLabel.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleHashMap.java" tooltip="lab5/src/map/SimpleHashMap.java">
+<persistable path="/lab5/src/map/SimpleHashMap.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SolveButton.java" tooltip="sudoku/src/SolveButton.java">
-<persistable path="/sudoku/src/SolveButton.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="QuitButton.java" tooltip="lab6/src/phonebook/QuitButton.java">
+<persistable path="/lab6/src/phonebook/QuitButton.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClearButton.java" tooltip="sudoku/src/ClearButton.java">
-<persistable path="/sudoku/src/ClearButton.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ShowAllMenu.java" tooltip="lab6/src/phonebook/ShowAllMenu.java">
+<persistable path="/lab6/src/phonebook/ShowAllMenu.java"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Scanner.class" tooltip="java.util.Scanner">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=banktest/\/usr\/lib\/jvm\/java-6-openjdk\/jre\/lib\/rt.jar&lt;java.util(Scanner.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AddMenu.java" tooltip="lab6/src/phonebook/AddMenu.java">
+<persistable path="/lab6/src/phonebook/AddMenu.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="YesButton.java" tooltip="forel-7/many-listeners-model-view/YesButton.java">
-<persistable path="/forel-7/many-listeners-model-view/YesButton.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RemoveMenu.java" tooltip="lab6/src/phonebook/RemoveMenu.java">
+<persistable path="/lab6/src/phonebook/RemoveMenu.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="sudokus" tooltip="sudoku/sudokus">
-<persistable path="/sudoku/sudokus"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MapExample.java" tooltip="experiment/src/MapExample.java">
+<persistable path="/experiment/src/MapExample.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NewButton.java" tooltip="sudoku/src/NewButton.java">
-<persistable path="/sudoku/src/NewButton.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FindNamesMenu.java" tooltip="lab6/src/phonebook/FindNamesMenu.java">
+<persistable path="/lab6/src/phonebook/FindNamesMenu.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NoButton.java" tooltip="forel-7/many-listeners-model-view/NoButton.java">
-<persistable path="/forel-7/many-listeners-model-view/NoButton.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FindNumbersMenu.java" tooltip="lab6/src/phonebook/FindNumbersMenu.java">
+<persistable path="/lab6/src/phonebook/FindNumbersMenu.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="forel-7/many-listeners-model-view/Main.java">
-<persistable path="/forel-7/many-listeners-model-view/Main.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BinarySearchTree.java" tooltip="lab4/src/bst/BinarySearchTree.java">
+<persistable path="/lab4/src/bst/BinarySearchTree.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CountersView.java" tooltip="forel-7/many-listeners-model-view/CountersView.java">
-<persistable path="/forel-7/many-listeners-model-view/CountersView.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PhoneBookGUI.java" tooltip="lab6/src/phonebook/PhoneBookGUI.java">
+<persistable path="/lab6/src/phonebook/PhoneBookGUI.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Counters.java" tooltip="forel-7/many-listeners-model-view/Counters.java">
-<persistable path="/forel-7/many-listeners-model-view/Counters.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PhoneBook.java" tooltip="lab6/src/phonebook/PhoneBook.java">
+<persistable path="/lab6/src/phonebook/PhoneBook.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Counter.java" tooltip="forel-7/button-with-listener/Counter.java">
-<persistable path="/forel-7/button-with-listener/Counter.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="lab6/src/phonebook/Main.java">
+<persistable path="/lab6/src/phonebook/Main.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FrameWithPanels.java" tooltip="forel-7/layout-examples/FrameWithPanels.java">
-<persistable path="/forel-7/layout-examples/FrameWithPanels.java"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FormattedTextFieldDemo.java" tooltip="/h/d5/d/dat11ael/Desktop/FormattedTextFieldDemo.java">
+<persistable uri="file:/h/d5/d/dat11ael/Desktop/FormattedTextFieldDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GUI.java" tooltip="forel-7/graphic-with-circles/GUI.java">
-<persistable path="/forel-7/graphic-with-circles/GUI.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SudokuButton.java" tooltip="sudoku/src/SudokuButton.java">
+<persistable path="/sudoku/src/SudokuButton.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawingPanel.java" tooltip="forel-7/graphic-small-example/DrawingPanel.java">
-<persistable path="/forel-7/graphic-small-example/DrawingPanel.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CheckButton.java" tooltip="sudoku/src/CheckButton.java">
+<persistable path="/sudoku/src/CheckButton.java"/>
 </file>
 </mruList>
 </workbench>
