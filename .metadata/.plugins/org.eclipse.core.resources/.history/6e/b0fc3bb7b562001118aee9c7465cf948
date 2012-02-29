@@ -67,10 +67,10 @@ public class Sudoku {
 	}
 	
 	/**
-	 * Letar efter förekomster av num i aktuell rad
-	 * @param row rad att testa
-	 * @param num numret att leta efter
-	 * @return true om num inte hittades i raden, false annars
+	 * Letar efter dubletter i aktuell rad
+	 * @param row
+	 * @param num
+	 * @return
 	 */
 	private boolean checkRow(int row, int num) {
 		int index = 0;
@@ -81,10 +81,10 @@ public class Sudoku {
 	}
 	
 	/**
-	 * Letar efter förekomster av num i aktuell kolumn
-	 * @param num numret att leta efter
-	 * @param col kolumn att testa 
-	 * @return true om num inte hittades i kolumnen, false annars
+	 * Letar efter dubletter i aktuell kolumn
+	 * @param num
+	 * @param col
+	 * @return
 	 */
 	private boolean checkColumn(int num, int col) {
 		int index = 0;
@@ -95,11 +95,11 @@ public class Sudoku {
 	}
 	
 	/**
-	 * Letar efter förekomster av num i aktuell 3x3-region
-	 * @param y y-koordinat i sudokut
-	 * @param x x-koordinat i sudokut
-	 * @param num numret att leta efter
-	 * @return true om num inte hittades i regionen, false annars
+	 * Letar efter dubletter i aktuell 3x3-region
+	 * @param y
+	 * @param x
+	 * @param num
+	 * @return
 	 */
 	private boolean checkRegion(int y, int x, int num) {
 		boolean noDuplicates = true;
@@ -115,8 +115,8 @@ public class Sudoku {
 	
 	/**
 	 * Utför alla tre kontroller på en ruta
-	 * @param y y-koordinat i sudokut
-	 * @param x x-koordinat i sudokut
+	 * @param y
+	 * @param x
 	 * @return true om rutan är okej, false annars
 	 */
 	public boolean check(int y, int x) {

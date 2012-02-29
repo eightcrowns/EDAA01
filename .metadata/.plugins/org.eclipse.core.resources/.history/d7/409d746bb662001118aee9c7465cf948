@@ -8,10 +8,8 @@ public class ClearButton extends SudokuButton {
 		super(values, fields, statusLabel, "Clear");
 	}
 	
-	/**
-	 * Nollställ sudokuvektorn, töm och återställ alla textfält
-	 */
 	public void actionPerformed(ActionEvent e) {
+		// Nollställ sudokuvektorn, töm och återställ alla textfält
 		for (int y = 0; y < 9; y++) {
 			for (int x = 0; x < 9; x++) {
 				values[y][x] = 0;

@@ -8,9 +8,6 @@ public class SolveButton extends SudokuButton {
 		super(values, fields, statusLabel, "Solve");
 	}
 	
-	/**
-	 * Löser sudokut och skriver ut lösningen i textfälten
-	 */
 	public void actionPerformed(ActionEvent e) {
 		int[][] s = new int[9][9];
 		// Kopiera de rutor som var ifyllda från början till ny vektor

@@ -19,9 +19,6 @@ public class NewButton extends SudokuButton {
 		}
 	}
 	
-	/**
-	 * Läser in ett nytt sudoku från fil
-	 */
 	public void actionPerformed(ActionEvent e) {
 		int y = 0;
 		while (scanner.hasNext() && y < 9) { // försök att läsa in 9 rader

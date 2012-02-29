@@ -11,9 +11,6 @@ public class SudokuGUI {
 	public static final Font standardFont = new Font(null, Font.PLAIN, 28);
 	public static final Font boldFont = new Font(null, Font.BOLD, 28);
 	
-	/**
-	 * Grafiskt användagränssnitt i sudokuprogrammet
-	 */
 	public SudokuGUI() {
 		int[][] values = new int[9][9];
 		
@@ -51,10 +48,6 @@ public class SudokuGUI {
 		}
 		frame.add(sudokuPanel, BorderLayout.CENTER);
 		
-		/*
-		 * Dialogrutorna är ersatta av ett statusfält eftersom vi anser att det förbättrar användargränssnittet.
-		 * Och för att vi tycker att det är snyggt!
-		 */
 		JLabel statusLabel = new JLabel();
 		statusLabel.setPreferredSize(new Dimension(130, 20)); // ställ in statusfältets storlek
 		

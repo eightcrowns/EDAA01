@@ -8,10 +8,6 @@ public class CheckButton extends SudokuButton {
 		super(values, fields, statusLabel, "Check");
 	}
 	
-	/**
-	 * Kontrollerar användarens lösning av sudokut och anger det
-	 * i statusfältet
-	 */
 	public void actionPerformed(ActionEvent e) {
 		int[][] s = new int[9][9];
 		// Läs in värden till ny vektor
