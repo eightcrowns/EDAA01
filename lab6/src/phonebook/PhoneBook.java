@@ -23,7 +23,17 @@ public class PhoneBook implements Serializable {
 	public void put(String name, String number) {
 		LinkedList<String> numberList = phoneBook.get(name);
 		if (numberList != null) {
-			numberList.addFirst(number);
+			Iterator<String> it = numberList.iterator();
+			boolean found = false;
+			while (it.hasNext() && !found) {
+				if(it.next().equals(number)) {
+					found = true;
+					break;
+				}
+			}
+			if (!found) {
+				numberList.addFirst(number);
+			}
 		} else {
 			numberList = new LinkedList<String>();
 			numberList.addFirst(number);

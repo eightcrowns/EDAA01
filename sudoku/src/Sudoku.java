@@ -1,24 +1,26 @@
-
 public class Sudoku {
 	private int[][] sudoku; // [y][x], y=rader av kolumner, x=kolumner i rader
 	
+	/**
+	 * Sudokut anges som en matris vid skapandet av sudokuobjektet
+	 * @param sudoku matris av heltal som representerar sudokut som ska lösas
+	 */
 	public Sudoku(int[][] sudoku) {
 		this.sudoku = sudoku;
 	}
 	
+	/**
+	 * Lös sudokut. Observera att sudokumatrisen som angivits som parameter
+	 * till konstruktorn kommer att skrivas över.
+	 * @return true om sudokut gick att lösa, false annars
+	 */
 	public boolean solve() {
 		return solve(0, 0);
 	}
 	
 	private boolean solve(int y, int x) {
 		if (sudoku[y][x] > 0) { // finns en siffra i (y, x)
-			int i = sudoku[y][x];
-			int temp = sudoku[y][x];
-			sudoku[y][x] = 0;
-			System.out.println(checkRow(y, i) + ", " + checkColumn(i, x) + ", " + checkRegion(y, x, i));
-			boolean noDuplicates = checkRow(y, i) && checkColumn(i, x) && checkRegion(y, x, i);
-			sudoku[y][x] = temp;
-			if (noDuplicates) { // om i är giltigt i (y, x)
+			if (check(y, x)) { // om i är giltigt i (y, x)
 				if(y == 8 && x == 8 ) { // sista rutan i sudokut
 					return true;
 				} else // kör solve på nästa ruta
@@ -36,18 +38,16 @@ public class Sudoku {
 		} else { // tomt i (y, x)
 			if(y == 8 && x == 8 ) { // sista rutan i sudokut
 				for (int i = 1; i <= 9; i++) {
-					if (checkRow(y, i) && checkColumn(i, x) && checkRegion(y, x, i)) { // om i är giltigt i (y, x)
-						sudoku[y][x] = i; // sätt in i
-						
+					sudoku[y][x] = i; // prova att sätta in i
+					if (check(y, x)) { // om i är giltigt i (y, x)
 						return true; // sudokut är löst
 					}
 				}
 				return false;
 			} else {
 				for (int i = 1; i <= 9; i++) {
-					if (checkRow(y, i) && checkColumn(i, x) && checkRegion(y, x, i)) { // om i är giltigt i (y, x)
-						sudoku[y][x] = i; // sätt in i
-						
+					sudoku[y][x] = i; // prova att sätta in i
+					if (check(y, x)) { // om i är giltigt i (y, x)
 						// kör solve på nästa ruta
 						if (x == 8) { // sista rutan i raden
 							if (solve(y+1, 0)) {
@@ -61,13 +61,13 @@ public class Sudoku {
 					}
 				}
 				sudoku[y][x] = 0;
-				return false;
+				return false; // felaktig lösning, gå bakåt
 			}
 		}
 	}
 	
 	/**
-	 * Körs före num läggs till i matrisen.
+	 * Letar efter dubletter i aktuell rad
 	 * @param row
 	 * @param num
 	 * @return
@@ -80,14 +80,27 @@ public class Sudoku {
 		return index == 9; // inga dubletter
 	}
 	
+	/**
+	 * Letar efter dubletter i aktuell kolumn
+	 * @param num
+	 * @param col
+	 * @return
+	 */
 	private boolean checkColumn(int num, int col) {
-		int i = 0;
-		while (i < 9 && num != sudoku[i][col]) {
-			i++;
+		int index = 0;
+		while (index < 9 && num != sudoku[index][col]) {
+			index++;
 		}
-		return i == 9; // inga dubletter
+		return index == 9; // inga dubletter
 	}
 	
+	/**
+	 * Letar efter dubletter i aktuell 3x3-region
+	 * @param y
+	 * @param x
+	 * @param num
+	 * @return
+	 */
 	private boolean checkRegion(int y, int x, int num) {
 		boolean noDuplicates = true;
 		for (int row = (y / 3) * 3; row < (y / 3 + 1) * 3; row++) {
@@ -100,7 +113,14 @@ public class Sudoku {
 		return noDuplicates;
 	}
 	
+	/**
+	 * Utför alla tre kontroller på en ruta
+	 * @param y
+	 * @param x
+	 * @return true om rutan är okej, false annars
+	 */
 	public boolean check(int y, int x) {
+		// Plocka tillfälligt ut värdet från aktuell ruta för att inte upptäcka falska dubletter
 		int num = sudoku[y][x];
 		sudoku[y][x] = 0;
 		
@@ -110,41 +130,6 @@ public class Sudoku {
 		} else {
 			sudoku[y][x] = num;
 			return false;
-		}
-	}
-	
-	public static void main(String args[]) {
-//		int s[][] = {
-//			{0, 0, 8, 0, 0, 9, 0, 6, 2},
-//			{0, 0, 0, 0, 0, 0, 0, 0, 5},
-//			{1, 0, 2, 5, 0, 0, 0, 0, 0},
-//			{0, 0, 0, 2, 1, 0, 0, 9, 0},
-//			{0, 5, 0, 0, 0, 0, 6, 0, 0},
-//			{6, 0, 0, 0, 0, 0, 0, 2, 8},
-//			{4, 1, 0, 6, 0, 8, 0, 0, 0},
-//			{8, 6, 0, 0, 3, 0, 1, 0, 0},
-//			{0, 0, 0, 0, 0, 0, 4, 0, 0}
-//		};
-		int s[][] = {
-				{0, 0, 8, 0, 0, 9, 0, 6, 2},
-				{0, 0, 0, 0, 0, 0, 0, 0, 5},
-				{1, 0, 2, 5, 0, 0, 0, 0, 0},
-				{0, 0, 0, 2, 1, 0, 0, 9, 0},
-				{0, 5, 0, 0, 0, 0, 6, 0, 0},
-				{6, 0, 0, 0, 0, 0, 0, 2, 8},
-				{4, 1, 0, 6, 0, 8, 0, 0, 0},
-				{8, 6, 0, 0, 3, 0, 1, 0, 0},
-				{0, 0, 0, 0, 0, 0, 4, 0, 0}
-			};
-		
-		Sudoku sudoku = new Sudoku(s);
-		System.out.println(sudoku.solve());
-		
-		for (int y = 0; y < 9; y++) {
-			for (int x = 0; x < 9; x++) {
-				System.out.print(s[y][x] + " ");
-			}
-			System.out.println();
 		}
 	}
 }

@@ -20,7 +20,7 @@ public class AddMenu extends JMenuItem implements ActionListener {
 			String number = JOptionPane.showInputDialog("Enter number");
 			if (number != null && !number.isEmpty()) {
 				phoneBook.put(name, number);
-				gui.addMessage(name + " lades till med nummer: " + number);
+				gui.addMessage(name + " lades kanske till med nummer: " + number);
 			}
 		}
 	}

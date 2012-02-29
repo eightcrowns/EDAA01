@@ -23,7 +23,7 @@ public class FindNumbersMenu extends JMenuItem implements ActionListener {
 			if (!numbers.isEmpty()) {
 				gui.addMessage(name + " har följande nummer: " + numbers.toString());
 			} else {
-				gui.addMessage(name + " finns inte i telefonboken.");
+				gui.addMessage("Personen " + name + " finns inte i telefonboken.");
 			}
 		}
 	}

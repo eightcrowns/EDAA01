@@ -1,5 +1,6 @@
 import java.awt.BorderLayout;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.Color;
 import java.text.NumberFormat;
@@ -7,6 +8,9 @@ import java.text.NumberFormat;
 import javax.swing.*;
 
 public class SudokuGUI {
+	public static final Font standardFont = new Font(null, Font.PLAIN, 28);
+	public static final Font boldFont = new Font(null, Font.BOLD, 28);
+	
 	public SudokuGUI() {
 		int[][] values = new int[9][9];
 		
@@ -16,18 +20,23 @@ public class SudokuGUI {
 		JPanel sudokuPanel = new JPanel();
 		sudokuPanel.setLayout(new GridLayout(9, 9));
 		JTextField fields[][] = new JTextField[9][9];
+		
+		// Skapa färger som används som bakgrunder i textfälten
 		Color råsa = new Color(251, 174, 210);
 		Color plum = new Color(221, 160, 221);
 		
-		NumberFormat f = NumberFormat.getInstance();  
+		// Skapa ett NumberFormat-objekt som används för att tvinga textfälten att
+		// endast tillåta ett heltal
+		NumberFormat f = NumberFormat.getInstance();
 		f.setMaximumIntegerDigits(1);
 		f.setMinimumIntegerDigits(0);
-		//f.setMaximumFractionDigits(2);  
 		
 		for (int y = 0; y < 9; y++) {
 			for (int x = 0; x < 9; x++) {
 				fields[y][x] = new JFormattedTextField(f);
 				fields[y][x].setEditable(false);
+				fields[y][x].setFont(standardFont);
+				
 				if (y < 3 && (x < 3 || x >= 6) || y >= 3 && y < 6 && x >= 3 && x < 6 || y >= 6 && (x < 3 || x >= 6)) {
 					fields[y][x].setBackground(råsa);
 				} else {

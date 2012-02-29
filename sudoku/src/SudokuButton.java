@@ -4,7 +4,6 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-
 public abstract class SudokuButton extends JButton implements ActionListener {
 	protected int[][] values;
 	protected JTextField[][] fields;

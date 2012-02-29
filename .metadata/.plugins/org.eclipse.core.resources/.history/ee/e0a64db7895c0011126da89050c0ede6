@@ -1,5 +1,0 @@
-package map;
-
-public class SimpleHashMap<K, V> implements Map<K, V> {
-	
-}

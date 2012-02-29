@@ -23,7 +23,7 @@ public class FindNamesMenu extends JMenuItem implements ActionListener {
 			if (!names.isEmpty()) {
 				gui.addMessage(number + " tillhör följande personer: " + names.toString());
 			} else {
-				gui.addMessage(number + " finns inte i telefonboken.");
+				gui.addMessage("Numret " + number + " finns inte i telefonboken.");
 			}
 		}
 	}
