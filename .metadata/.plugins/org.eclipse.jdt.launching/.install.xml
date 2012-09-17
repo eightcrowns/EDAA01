@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-<entry loc="/usr/lib/jvm/java-6-openjdk-amd64" stamp="1328018952000"/>
+<entry loc="/usr/lib/jvm/java-6-openjdk-amd64" stamp="1336860140000"/>
+<entry loc="/usr/lib/jvm/java-6-openjdk-amd64/jre" stamp="1331739000000"/>
 </dirs>
